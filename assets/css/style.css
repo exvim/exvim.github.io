@@ -53,9 +53,15 @@ small { font-size: 0.85em; }
 sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
 
-code {
+.highlight code {
     font: 0.85em Monaco, Courier, Monospace;
+    color: #93a1a1;
+    background-color: transparent;
 }
+code {                        
+    background-color: #073642;
+    color: #719e07;              
+}                             
 
 blockquote {
     margin: 22px 22px;
