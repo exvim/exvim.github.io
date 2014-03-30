@@ -1,0 +1,32 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            exVim
+tagline:          ''
+description:      ''
+url:              http://exvim.github.com
+
+author:
+  name:           'exVim Organization'
+  url:            http://github.com/exvim
+
+github:
+  repo:           https://github.com/exvim/main
+
+redcarpet:
+  extensions:     [
+      "no_intra_emphasis", 
+      "fenced_code_blocks", 
+      "autolink", 
+      "strikethrough", 
+      "superscript",
+      "tables",
+      "with_toc_data",
+  ]
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
