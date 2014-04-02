@@ -6,10 +6,6 @@
 <title>{{ page.title }}</title>
 <meta name="viewport" content="width=device-width">
 
-<!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
 <link href="/assets/css/style.css" rel="stylesheet" />
 <link href="/assets/css/colors-dark.css" rel="stylesheet" />
 
@@ -17,25 +13,25 @@
 
 <body>
 
-
-
-<header id="header">
-</header>
-
-
+<div id="navbar">                                   
+    <div class="content">                                   
+        <div class="menu">                                   
+            <a href="/">Home</a>
+            <a href="/download">Downloads</a>
+            <a href="/doc">Docs</a>
+            <a href="/about">About</a>
+            <a href="https://github.com/exvim/main">GitHub</a>
+        </div>                                               
+    </div>                                               
+    <div class="clear"></div>
+</div>                                               
 
 <div id="page">
-    <div id="sidebar">
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/feed.xml">RSS Feed</a></li>
-            </ul>
-        </nav>
-    </div>
+    <a href="https://github.com/exvim/main">
+        <img style="position: fixed; top: 0; right: 0; width:150px; height:150px" src="/images/forkme.png" alt="Fork me on GitHub">
+    </a>
 
-    <div id="content">
+    <div class="content">
         {{ content }}
     </div>
 </div>
