@@ -138,9 +138,18 @@ h3 {
 	border-top: 1px solid #073642;
 }
 
+#forkme {
+    z-index: 901;
+}
+
 #navbar {
-    background: #000;
+    background: rgba( 0, 0, 0, 0.8);
     padding: 16px 0 16px 0;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 900;
 }
 
 #navbar .content {
@@ -161,29 +170,8 @@ h3 {
 
 #page .content {
 	width: 775px;
-	margin: 0 auto;
+	margin: 30px auto;
 }
-
-#sidebar {
-	position: absolute;
-	text-align: right;
-	width: 160px;
-	top: 0;
-	left: -240px;
-}
-
-#sidebar li {
-	list-style: none;
-	margin: 2px 0;
-}
-
-#sidebar a {
-	border: none;
-	font-family: "Helvetica Neue", "Helvetica", serif;
-	font-size: 20px;
-	padding: 2px 4px;
-}
-
 
 /*** Posts ***/
 article {
