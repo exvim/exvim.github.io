@@ -57,11 +57,20 @@ sub { vertical-align: sub; font-size: 0.85em; }
     font: 0.85em Monaco, Courier, Monospace;
     color: #93a1a1;
     background-color: transparent;
+    border: none;
 }
-code {                        
+p code {                        
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: 14px;
     background-color: #073642;
     color: #719e07;              
+    border: solid 1px #2E545E;
+    border-radius: 3px;
 }                             
+p code:before, p code:after {
+    content: "\00a0";
+    letter-spacing: -0.2em;
+}
 
 blockquote {
     margin: 22px 22px;
