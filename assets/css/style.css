@@ -153,23 +153,23 @@ h3 {
 }
 
 #navbar .content {
-    width: 775px;
+    width: 755px;
     margin: 0 auto;
 }
 
 #navbar .content .menu {
-    float: right;
+    float: left;
     font-weight: bold;
     font-size: 18px;
 }
 
 #navbar .content .menu a {
-    margin-left: 20px;
+    margin-right: 20px;
     border: 0px;
 }
 
 #page .content {
-	width: 775px;
+	width: 755px;
 	margin: 30px auto;
 }
 
