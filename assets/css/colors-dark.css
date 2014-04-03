@@ -69,19 +69,17 @@ blockquote {
 }
 
 .highlight::-webkit-scrollbar {
-    height:.5em;
-    background:rgba(255,255,255,0.15);
+    height: .5em;
+    background: rgba(255,255,255,0.15);
 }
 
-.highlight::-webkit-scrollbar-thumb:horizontal {
-    background:rgba(255,255,255,0.2);
+.highlight::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.2);
     /* border-radius:4px; */
-    border-radius:0px;
+    border-radius: 0px;
 }
-
-.highlight::-webkit-scrollbar-thumb:vertical {
-    background:rgba(255,255,255,0.2);
-    /* border-radius:4px; */
-    border-radius:0px;
+.highlight::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.4);
+    border-radius: 0px;
 }
 
