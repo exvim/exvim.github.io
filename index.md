@@ -3,8 +3,6 @@ layout: index
 title: exVim Home
 ---
 
-![exVim Logo](images/logo.png)
-
 # Intro
 
 exVim is a project to turn Vim into a nice programming environment. This project makes you 
