@@ -3,12 +3,14 @@ layout: docs
 title: Installation
 ---
 
+# Install exVim
+
 ## Requirements
 
 - Vim 7.3 or higher.
 - [Vundle](https://github.com/gmarik/vundle) or [Pathogen](https://github.com/tpope/vim-pathogen)
 
-## Installation
+## Install and Update
 
 **NOTE:** 
 

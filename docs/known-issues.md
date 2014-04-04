@@ -3,6 +3,8 @@ layout: docs
 title: Known Issues
 ---
 
+# Known Issues
+
 ## Loose window when use `:q` close buffer in edit window
 
 When you use `:q` close a buffer in edit-window, you probably lose the window. To solve this

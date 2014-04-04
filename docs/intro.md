@@ -3,6 +3,8 @@ layout: docs
 title: Intro
 ---
 
+# Introduction
+
 exVim is a project to turn Vim into a nice programming environment. This project makes you 
 possible to apply different Vim settings, plugin settings and even plugins by different projects. 
 In this way, it makes Vim become the best IDE in the world!
@@ -59,9 +61,10 @@ to use your favor plugins with these files.
 ### How do you integrate Vim-plugins? ###
 
 exVim aims to implement as much as possible of the functions and features in **pure Vim language**. 
-We try to avoid reinvent the wheel. As a result, we carefully select and integrate popular Vim-plugins in the world  
-for some of the tasks. For those features lack of or for those features we think we can do it better, 
-we develop by ourself in put them in the [exVim organization](https://github.com/exvim) on GitHub.
+We try to avoid reinvent the wheel. As a result, we carefully select and integrate popular Vim-plugins 
+in the Vim community. But the exists Vim plugins can't fulfill our needs. For those features lack of and 
+for those features we think we can do it better, we develop by ourself in put them in 
+the [exVim organization](https://github.com/exvim) on GitHub.
 
 Here is the standards we pick, patches and develop for a vim-plugin:
 

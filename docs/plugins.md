@@ -3,6 +3,8 @@ layout: docs
 title: Plugins
 ---
 
+# Plugins
+
 For several years working with Vim. The exVim team get a good taste in choosing vim-plugins. 
 We carefully select the plugins we need from Vim community. We also develop our own plugin in
 demand, and for those plugins that stop maintaining by the author, we fork them into our 
