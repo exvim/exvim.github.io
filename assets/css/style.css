@@ -48,7 +48,7 @@ div.highlight { margin-bottom: 20px; }
 ul, ol { padding: 0 0 18px 30px; }
 /* ol li, ul li { margin-top: 5px; margin-bottom: 5px; } */
 em, i { font-style: italic; }
-strong, b { font-weight: bold; }
+strong, b { font-weight: bold; color: rgb(219, 219, 219); }
 small { font-size: 0.85em; }
 sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
