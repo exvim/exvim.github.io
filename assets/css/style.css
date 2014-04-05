@@ -35,7 +35,7 @@ body {
 
 a, a:active, a:visited {
 	text-decoration: none;
-	border-bottom: 1px solid #839496;
+	/* border-bottom: 1px solid #839496; */
 	padding-bottom: 2px;
 }
 a:hover {
@@ -121,11 +121,6 @@ h3 {
 
 
 /*** Structure ***/
-#page {
-	width: 775px;
-	margin: 80px auto 0px;
-	position: relative;
-}
 
 #header {
 	width: 500px;
@@ -151,6 +146,19 @@ h3 {
     z-index: 901;
 }
 
+#page {
+	width: 775px;
+	margin: 80px auto 0px;
+	position: relative;
+}
+
+#page .content {
+	width: 775px;
+	margin: 30px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #navbar {
     background: rgba( 0, 0, 0, 0.8);
     padding: 16px 0 16px 0;
@@ -172,16 +180,32 @@ h3 {
     font-size: 18px;
 }
 
-#navbar .content .menu a {
+#navbar>.content>.menu>a {
     margin-right: 20px;
-    border: 0px;
+    /* transition: all .2s ease-out; */
+    border-bottom: 5px solid transparent;
+}
+#navbar>.content>.menu>a:hover {
+    margin-right: 20px;
+	background-color: transparent;
+    color: #fff;
+    /* border-bottom: 5px solid #fff; */
 }
 
-#page .content {
-	width: 775px;
-	margin: 30px auto;
-    padding-left: 10px;
-    padding-right: 10px;
+#navbar>.content>.menu>a.active {
+    margin-right: 20px;
+	background-color: transparent;
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    width: 200px;
 }
 
 /*** Posts ***/
