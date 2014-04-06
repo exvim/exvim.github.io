@@ -10,7 +10,7 @@ title: Install
 - Vim 7.3 or higher.
 - [Vundle](https://github.com/gmarik/vundle) or [Pathogen](https://github.com/tpope/vim-pathogen)
 
-## Install and Update
+## Install exVim
 
 **NOTE:** 
 
@@ -45,26 +45,7 @@ and decide later for replace or integrate with your current Vim.
 1. Preview exVim:
 
     ```bash
-    sh osx/mvim.sh my_project.exvim 
-    ```
-
-1. Replace your current Vim:
-
-    Like it? Want to replace it with your current Vim?  
-    
-    Now you've fall in love with exVim, and you want to replace it with your current
-    Vim environment, just do:
-
-    ```bash
-    cd main/                           # enter the main/ repository
-    cp .vimrc ~/.vimrc                 # you can merge your .vimrc with this
-    cp .vimrc.plugins ~/.vimrc.plugins # the plugins settings for exVim, change it if you need
-    cp -r vimfiles/ ~/.vim/            # replace your old plugins
-    ```
-    You can also replace it by running the script:
-
-    ```bash
-    sh osx/replace-my-vim.sh
+    sh osx/mvim.sh your/project/path/foobar.exvim 
     ```
 
 ### Install in Linux
@@ -91,22 +72,17 @@ and decide later for replace or integrate with your current Vim.
 1. Preview exVim:
 
     ```bash
-    sh unix/gvim.sh my_project.exvim 
-    ```
-
-1. Replace your current Vim:
-
-    ```bash
-    sh unix/replace-my-vim.sh
+    sh unix/gvim.sh your/project/path/foobar.exvim 
     ```
 
 ### Install in Windows
 
-**NOTE:** If you're using msysgit, you can open the Git Bash shell and follow the
-[install instruction for Linux](#install-in-linux) above.
-
 1. Download the project by git or [zip file](https://github.com/exvim/main/archive/master.zip). 
 Extract it on `C:\exVim` for example. 
+
+    ```bash
+    git clone https://github.com/exvim/main
+    ```
 
 1. Enter exVim folder, run `install.bat` batch file:
 
@@ -120,18 +96,37 @@ Extract it on `C:\exVim` for example.
     Preview exVim by:
 
     ```
-    C:\exVim>call windows\gvim.bat my_project.exvim
+    C:\exVim>call windows\gvim.bat "d:\your\project\path\foobar.exvim"
     ```
 
-    If you like it and want to replace it with your current Vim environment, copy the files
-    below to your: 
+## Replace your current Vim
 
-    ```
-    C:\exVim>call windows\replace-my-vim.bat
-    ```
+If you like exVim, and want to run it directly without invoke preview commands, you can run the following
+command:
 
-    **NOTE:** The exVim's .vimrc will rewrite the runtimepath settings for Windows, to make it search
-~/.vim folder instead of ~/vimfiles
+```bash
+# for mac user
+sh osx/replace-my-vim.sh
+
+# for linux user
+sh unix/replace-my-vim.sh
+```
+
+If you are Windows user, you can do this in batch window: 
+
+```
+C:\exVim>call windows\replace-my-vim.bat
+```
+
+The commands above will do three things:
+
+1. replace your `~/.vimrc` with exVim's `.vimrc`.
+1. copy `.vimrc.plugins` to `~/.vimrc.plugins`.
+1. copy and rename `vimfiles/` to `~/.vim/`.
+
+
+**NOTE:** In Windows, the exVim's `.vimrc` also rewrite the runtimepath settings to make it search
+`~/.vim` folder instead of `~/vimfiles`
 
 ## Install Powerline Font
 
@@ -146,3 +141,4 @@ You can also select other powerline-font in [Lokaltog/powerline-fonts](https://g
 If you think non of the fonts satisfy you, you can patch your favorite font by 
 [fontpatching](https://powerline.readthedocs.org/en/latest/fontpatching.html) 
 
+## Install External Tools
