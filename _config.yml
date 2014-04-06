@@ -45,3 +45,6 @@ navigation:
   layout: docs
 - text: GitHub
   url: https://github.com/exvim/main
+- text: About
+  url: /about/
+  layout: index

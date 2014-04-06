@@ -75,3 +75,5 @@ Here is the standards we pick, patches and develop for a vim-plugin:
 - Highly active community
 - Can be installed with a variety of plugin managers, Vundle or pathogen. (Repo in GitHub, standard runtime path structure)
 
+Read the [Plugins](http://exvim.github.io/docs/plugins/) to get the details of the plugins
+in exVim.
