@@ -29,7 +29,7 @@ The repository contains:
 
 - Manage your project with `.exvim` setting file.
 - Update your project files by single command. (tags, cscope-db, search-index, makefile, ...)
-- Project files store in one place (in the folder `./.exvim.your_project_name/` under your project).
+- Project files stores in one place (in the folder `./.exvim.your_project_name/` under your project).
 - Load Vim-plugin on demand for different projects based on your `.exvim` settings.
 - Better management of plugin windows in Vim. (avoid multiple plugin windows mess up in Vim)  
 - Browse and operate your project files and folders in project window.
@@ -58,7 +58,7 @@ The settings include:
 - Your extension settings.
 - ...
 
-exVim also make sure project files store in one place ( in the folder `./.exvim.your_project_name/` under your project ). 
+exVim also make sure project files stores in one place ( in the folder `./.exvim.your_project_name/` under your project ). 
 This makes your project clean and much better work with external tools. These project files can be:
 
 - global search index and results (idutils)
