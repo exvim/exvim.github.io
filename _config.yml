@@ -18,6 +18,7 @@ author:
 github:
   repo:           https://github.com/exvim/main
 
+# Markup language setup
 redcarpet:
   extensions:     [
       "no_intra_emphasis", 
@@ -30,3 +31,17 @@ redcarpet:
   ]
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+# Navigation
+navigation:
+- text: Home
+  url: /
+  layout: index
+- text: Downloads
+  url: /downloads/
+  layout: downloads
+- text: Docs
+  url: /docs/
+  layout: docs
+- text: GitHub
+  url: https://github.com/exvim/main

@@ -4,31 +4,14 @@
 <div id="navbar">                                   
     <div class="content">                                   
         <div class="menu">                                   
-            {% if page.url == "/" %}
-            <a class="active" href="/">Home</a>
-            {% else %}
-            <a href="/">Home</a>
-            {% endif %}
+            {% for link in site.navigation %}
+                {% assign active = nil %}
+                {% if page.url == link.url or page.layout == link.layout %}
+                    {% assign active = 'active' %}
+                {% endif %}
 
-            {% if page.url == "/downloads/" %}
-            <a class="active" href="/downloads">Downloads</a>
-            {% else %}
-            <a href="/downloads">Downloads</a>
-            {% endif %}
-
-            {% if page.url == "/docs/" %}
-            <a class="active" href="/docs">Docs</a>
-            {% else %}
-            <a href="/docs">Docs</a>
-            {% endif %}
-
-            <a href="https://github.com/exvim/main">GitHub</a>
-
-            {% if page.url == "/about/" %}
-            <a class="active" href="/about">About</a>
-            {% else %}
-            <a href="/about">About</a>
-            {% endif %}
+                <a class="{{ active }}" href="{{ link.url }}">{{ link.text }}</a>
+            {% endfor %}
         </div>                                               
     </div>                                               
     <div class="clear"></div>
