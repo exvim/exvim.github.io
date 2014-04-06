@@ -3,7 +3,7 @@ layout: docs
 title: Intro
 ---
 
-# Introduction
+# Intro
 
 exVim is a project to turn Vim into a nice programming environment. This project makes you 
 possible to apply different Vim settings, plugin settings and even plugins by different projects. 
@@ -11,7 +11,7 @@ In this way, it makes Vim become the best IDE in the world!
 
 **WHAT EVEN COOL IS --- WE USE EXVIM DEVELOP EXVIM! (\\(-_-)/)**
 
-### Features ###
+## Features
 
 - Manage your project with `.exvim` setting file.
 - Update your project files by single command. (tags, cscope-db, search-index, makefile, ...)
@@ -27,7 +27,7 @@ In this way, it makes Vim become the best IDE in the world!
 - Enhanced quick-fix window.
 - Popular Vim-plugin integrated.
 
-### How does it work? ###
+## How does it work?
 
 By edit and save your project settings in `your_project_name.exvim` file and open it with Vim, the exVim plugins 
 will be loaded.  It will parse the `your_project_name..exvim` file and apply settings for your project after Vim 
@@ -55,10 +55,10 @@ This makes your project clean and much better work with external tools. These pr
 - temporary files
 - ...
 
-After Vim loaded `your_project_name.exvim` and start, exVim helps you update project files and you are now happy
-to use your favor plugins with these files.
+After Vim loaded `your_project_name.exvim` and start, type `:Update` command and exVim will helps you update 
+project files. 
 
-### How do you integrate Vim-plugins? ###
+## How do you integrate Vim-plugins?
 
 exVim aims to implement as much as possible of the functions and features in **pure Vim language**. 
 We try to avoid reinvent the wheel. As a result, we carefully select and integrate popular Vim-plugins 

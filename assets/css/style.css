@@ -68,12 +68,6 @@ small { font-size: 0.85em; }
 sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
 
-.highlight code {
-    font: 0.85em Monaco, Courier, Monospace;
-    color: #93a1a1;
-    background-color: transparent;
-    border: none;
-}
 p code, li code {                        
     font-family: Consolas, "Liberation Mono", Courier, monospace;
     font-size: 14px;
@@ -85,6 +79,16 @@ p code, li code {
 p code:before, p code:after, li code:before, li code:after {
     content: "\00a0";
     letter-spacing: -0.2em;
+}
+
+.highlight code {
+    font: 0.85em Monaco, Courier, Monospace;
+    color: #93a1a1;
+    background-color: transparent;
+    border: none;
+}
+.highlight code:before, .highlight code:after {
+    display: none;
 }
 
 blockquote {

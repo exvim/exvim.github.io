@@ -1,9 +1,9 @@
 ---
 layout: docs
-title: Installation
+title: Install
 ---
 
-# Install exVim
+# Install
 
 ## Requirements
 
@@ -25,13 +25,13 @@ and decide later for replace or integrate with your current Vim.
 
 1. Clone the repository to where you want: 
 
-    ```
+    ```bash
     git clone https://github.com/exvim/main
     ```
 
 1. Execute the `osx/install.sh` shell script:
 
-    ```
+    ```bash
     cd main/
     sh osx/install.sh
     ```
@@ -44,7 +44,7 @@ and decide later for replace or integrate with your current Vim.
     
 1. Preview exVim:
 
-    ```
+    ```bash
     sh osx/mvim.sh my_project.exvim 
     ```
 
@@ -55,7 +55,7 @@ and decide later for replace or integrate with your current Vim.
     Now you've fall in love with exVim, and you want to replace it with your current
     Vim environment, just do:
 
-    ```
+    ```bash
     cd main/                           # enter the main/ repository
     cp .vimrc ~/.vimrc                 # you can merge your .vimrc with this
     cp .vimrc.plugins ~/.vimrc.plugins # the plugins settings for exVim, change it if you need
@@ -63,7 +63,7 @@ and decide later for replace or integrate with your current Vim.
     ```
     You can also replace it by running the script:
 
-    ```
+    ```bash
     sh osx/replace-my-vim.sh
     ```
 
@@ -71,13 +71,13 @@ and decide later for replace or integrate with your current Vim.
 
 1. Clone the repository to where you want: 
 
-    ```
+    ```bash
     git clone https://github.com/exvim/main
     ```
 
 1. Execute the `unix/install.sh` shell script:
 
-    ```
+    ```bash
     cd main/
     sh unix/install.sh
     ```
@@ -90,13 +90,13 @@ and decide later for replace or integrate with your current Vim.
     
 1. Preview exVim:
 
-    ```
+    ```bash
     sh unix/gvim.sh my_project.exvim 
     ```
 
 1. Replace your current Vim:
 
-    ```
+    ```bash
     sh unix/replace-my-vim.sh
     ```
 
