@@ -3,6 +3,11 @@ layout: index
 title: exVim Home
 ---
 
+# Download and Install
+
+- [Downloads](downloads)
+- [Installation](docs/install)
+
 # Intro
 
 exVim is a project to turn Vim into a nice programming environment. This project makes you 
@@ -57,8 +62,3 @@ This makes your project clean and much better work with external tools. These pr
 
 After Vim loaded `your_project_name.exvim` and start, type `:Update` command and exVim will helps you update 
 project files. 
-
-# Index
-
-- [Installation](docs/install)
-- [Getting Start](docs/getting-start)
