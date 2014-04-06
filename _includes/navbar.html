@@ -6,7 +6,7 @@
         <div class="menu">                                   
             {% for link in site.navigation %}
                 {% assign active = nil %}
-                {% if page.url == link.url or page.layout == link.layout %}
+                {% if page.url == link.url %}
                     {% assign active = 'active' %}
                 {% endif %}
 
