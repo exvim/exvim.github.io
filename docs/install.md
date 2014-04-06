@@ -138,10 +138,10 @@ Extract it on `C:\exVim` for example.
 The exVim turn on the powerline font support by default. To make it work, you need to install 
 powerline font to your system. 
 
-exVim provide DejaVuSansMono for Powerline by default. You can download it [here](downloads/DejaVuSansMono-for-powerline.zip).
-Unzip it and install all the `.ttf` file manually.
+We highly recommend DejaVuSansMono for Powerline. Just download [DejaVuSansMono-for-powerline.zip]({{site.baseurl}}downloads/DejaVuSansMono-for-powerline.zip),
+unzip it and install all the `.ttf` file manually.
 
-You can also select other powerline-font in [here](https://github.com/Lokaltog/powerline-fonts)
+You can also select other powerline-font in [Lokaltog/powerline-fonts](https://github.com/Lokaltog/powerline-fonts)
 
 If you think non of the fonts satisfy you, you can patch your favorite font by 
 [fontpatching](https://powerline.readthedocs.org/en/latest/fontpatching.html) 
