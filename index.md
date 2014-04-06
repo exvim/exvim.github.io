@@ -6,7 +6,7 @@ title: exVim Home
 # Download and Install
 
 - [Downloads](downloads)
-- [Installation](docs/install)
+- [Install](docs/install)
 
 # Intro
 
