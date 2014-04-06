@@ -10,7 +10,7 @@ title: Downloads
 ## External Tools
 
  - cTags [ [5.8](downloads/ctags.exe) ]
- - cscope
+ - cscope [ [15.7a](downloads/cscope.exe) ]
  - sed [ [4.2.1](downloads/sed.exe) ]
  - gawk [ [3.1.6](downloads/gawk.exe) ]
  - id-utils [ [4.0.2](downloads/idutils.zip) ]
