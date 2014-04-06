@@ -136,6 +136,24 @@ h3 {
 	margin: 0 0 20px 0;
 }
 
+table {
+    margin: 20px 20px 30px 20px;
+}
+
+table th {
+    background: #000;
+    font-weight: bold;
+}
+
+table td {
+    background: #333;
+}
+
+table td, table th {
+    padding: 10px;
+    border: solid 1px #272727;
+}
+
 /*** Useful Classes ***/
 
 .clear { clear: both; }

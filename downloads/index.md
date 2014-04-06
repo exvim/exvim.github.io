@@ -3,28 +3,45 @@ layout: downloads
 title: Downloads
 ---
 
- - exVim Package [ TODO ]
+More details, read the [install](../docs/install) documentation.
 
-- - -
+ - exVim Package [ TODO ]
 
 # Windows
 
- - gVim [ [7.4 installer](gvim74.exe) ]
+| Name           | Download           | Address                                               |
+| :------------- | :----------------: | :---------------------------------------------------- |
+| gVim 7.4       | [exe](gvim74.exe)  | http://www.vim.org/download.php                       |
+| cTags 5.8      | [exe](ctags.exe)   | http://ctags.sourceforge.net/                         |
+| cscope 15.7a   | [exe](cscope.exe)  | http://cscope.sourceforge.net/                        |
+| sed 4.2.1      | [exe](sed.exe)     | http://gnuwin32.sourceforge.net/packages/sed.htm      |
+| gawk 3.1.6     | [exe](gawk.exe)    | http://gnuwin32.sourceforge.net/packages/gawk.htm     |
+| id-utils 4.0.2 | [zip](idutils.zip) | http://gnuwin32.sourceforge.net/packages/id-utils.htm |
 
-## External Tools
-
- - cTags [ [5.8](ctags.exe) ]
- - cscope [ [15.7a](cscope.exe) ]
- - sed [ [4.2.1](sed.exe) ]
- - gawk [ [3.1.6](gawk.exe) ]
- - id-utils [ [4.0.2](idutils.zip) ]
-
-- - -
+You also need to install and setup Git to make exVim working correctly. More details about Git
+setup, read [Vundle for Windows](https://github.com/gmarik/Vundle.vim/wiki/Vundle-for-Windows)
 
 # Mac
 
- - MacVim [ [7.4](MacVim-snapshot-70-Mountain-Lion.tbz) ]
+| Name          | Download                                    | Install Command                                     |
+| :------------ | :-----------------------------------------: | :-------------------------------------------------- |
+| MacVim 7.4    | [tbz](MacVim-snapshot-70-Mountain-Lion.tbz) | brew install macvim --with-cscope --with-lua --HEAD |
+| cTags         | -                                           | brew install ctags                                  |
+| cscope        | -                                           | brew install cscope                                 |
+| sed           | -                                           | brew install sed                                    |
+| gawk          | -                                           | brew install gawk                                   |
+| id-utils      | -                                           | brew install idutils                                |
 
-- - -
+`brew` is the Homebrew install command, more details about [Homebrew](http://brew.sh/).
 
-More details, read the [install](../docs/install) documentation.
+# Powerline Fonts
+
+| Name             | Download                                    |
+| :--------------- | :-----------------------------------------: |
+| DejaVu Sans Mono | [zip](DejaVuSansMono-for-powerline.zip)     |
+
+You can also select other powerline-font in [here](https://github.com/Lokaltog/powerline-fonts)
+
+If you think non of the fonts satisfy you, you can patch your favorite font by 
+[fontpatching](https://powerline.readthedocs.org/en/latest/fontpatching.html) 
+
