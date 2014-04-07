@@ -1,6 +1,6 @@
 ---
 layout: index
-title: exVim Home
+title: Home
 ---
 
 # Download and Install

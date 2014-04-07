@@ -10,6 +10,7 @@ title: Docs
 - [Introduction](intro)
 - [Installation](install)
 - [Getting Start](getting-start)
+- [Config .exvim File](config-project)
 - [Plugins](plugins)
 - [Known Issues](known-issues)
 - [Changelog](changelog)
