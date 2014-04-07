@@ -60,7 +60,7 @@ This option affects the following plugins:
 
 ### file_filter (array)
 
-`file_filter` accept suffix of the file you expect to browse and process in exVim project. 
+`file_filter` accepts suffix of the file you expect to browse and process in exVim project. 
 
 Example:
 
@@ -68,7 +68,16 @@ Example:
 file_filter += c,cpp
 ```
 
-The above filter makes exVim accept *.c, *.cpp files. 
+The filter above makes exVim accepts *.c, *.cpp files. 
+
+`file_filter` also accetps empty suffix by named it `__EMPTY__`, for example: 
+
+```
+file_filter += __EMPTY__,c,cpp
+```
+
+The filter above also accepts files that doesn't have suffix, such as:
+LICENSE, README, Makefile, ...
 
 This option affects the following plugins:
 

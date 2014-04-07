@@ -54,7 +54,7 @@ This makes your project clean and much better work with external tools. These pr
 - temporary files
 - ...
 
-After exVim started, type `:Update` command and exVim will helps you update project files. 
+After exVim started, type `:Update` command, exVim will helps you update project files. 
 
 ## How do you integrate Vim-plugins?
 
