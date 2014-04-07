@@ -11,7 +11,7 @@ demand, and for those plugins that stop maintaining by the author, we fork them 
 organization and modify it to fit for exVim.
 
 This article will show you the plugins currently used by default in exVim. I also recommend
-you read [Select a plugin in the vim community](select-your-plugin), which will teach you how
+you read [Select a plugin in the vim community]({{site.baseurl}}docs/select-your-plugin), which will teach you how
 to search a plugin in the Vim world. 
 
 ## General

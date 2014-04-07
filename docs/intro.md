@@ -29,9 +29,8 @@ In this way, it makes Vim become the best IDE in the world!
 
 ## How does it work?
 
-By edit and save your project settings in `your_project_name.exvim` file and open it with Vim, the exVim plugins 
-will be loaded.  It will parse the `your_project_name..exvim` file and apply settings for your project after Vim 
-started.
+Edit and saved your project settings in `your_project_name.exvim`, open it with Vim.
+In this way exVim will parse the the file and apply settings to your project after Vim started.
 
 The settings include:
 
@@ -55,8 +54,7 @@ This makes your project clean and much better work with external tools. These pr
 - temporary files
 - ...
 
-After Vim loaded `your_project_name.exvim` and start, type `:Update` command and exVim will helps you update 
-project files. 
+After exVim started, type `:Update` command and exVim will helps you update project files. 
 
 ## How do you integrate Vim-plugins?
 
