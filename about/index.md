@@ -3,6 +3,8 @@ layout: index
 title: About
 ---
 
+# About
+
 ## About exVim organization
 
 The exVim is an organization in Github. The repositories under exVim are the plugins used in

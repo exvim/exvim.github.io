@@ -77,6 +77,14 @@ and decide later for replace or integrate with your current Vim.
 
 ### Install in Windows
 
+1. Make sure the "vim" command is available in your batch command window. To do this, type "vim"
+and check the result. If there is no "vim" commands, you probably not install gVim or you didn't 
+put gVim install path to your Environment `PATH`. You can download gVim installer at 
+[downloads]({{site.baseurl}}downloads) page. 
+
+1. Follow this document [Vundle for Windows](https://github.com/gmarik/Vundle.vim/wiki/Vundle-for-Windows)
+to setup Git and Curl.
+
 1. Download the project by git or [zip file](https://github.com/exvim/main/archive/master.zip). 
 Extract it on `C:\exVim` for example. 
 
@@ -90,10 +98,10 @@ Extract it on `C:\exVim` for example.
     C:\>cd exVim
     C:\exVim>call windows\install.bat
     ```
-1. Wait for install finish 
 
     After you running the script, the `C:\exVim` directory becomes a development environment for exVim. 
-    Preview exVim by:
+
+1. Preview exVim:
 
     ```
     C:\exVim>call windows\gvim.bat "d:\your\project\path\foobar.exvim"
@@ -128,7 +136,45 @@ The commands above will do three things:
 **NOTE:** In Windows, the exVim's `.vimrc` also rewrite the runtimepath settings to make it search
 `~/.vim` folder instead of `~/vimfiles`
 
-## Install Powerline Font
+## Install External Tools (Optional But Important)
+
+Before we start exVim, we need some external tools to make it powerful. By default, exVim integrates:
+
+- cTags ( for ex-tags, ex-symbol )
+- id-utils ( for ex-gsearch )
+- cscope ( for ex-cscope )
+
+This external tools can be turn off in the `.exvim` file. To make the parsed result working with these
+tools, exVim still need others such as:
+
+- gawk
+- sed
+
+So we highly recommend you install the tools before [getting start with exVim]({{site.baseurl}}docs/getting-start). 
+
+### Mac 
+
+Mac users can use [Homebrew](http://brew.sh/) install them, just go to the [downloads]({{site.baseurl}}downloads) 
+page and follow the commands in Mac section.
+
+**NOTE:** If you already download XCode commands toolkit, you probably have an old version of cTags in it. 
+You need to manually replace the old cTags with Homebrew's download.
+
+### Linux ( Ubuntu, ... ) 
+
+Ubuntu users can use `apt-get` to install them, just go to the [downloads]({{site.baseurl}}downloads) 
+page and follow the commands in Mac section, change `brew` to `apt-get` instead.
+
+### Windows
+
+Windows users can install them by pre-compiled binaries. I provide most of them in [downloads]({{site.baseurl}}downloads)
+page.
+
+After download and extract the files, put them in your directory such as `C:\Users\Foobar\Bin`, and add 
+this directory in your Environment `PATH`. Make sure all the commands are available in your 
+batch command window.
+
+## Install Powerline Font (Optional)
 
 The exVim turn on the powerline font support by default. To make it work, you need to install 
 powerline font to your system. 
@@ -140,5 +186,3 @@ You can also select other powerline-font in [Lokaltog/powerline-fonts](https://g
 
 If you think non of the fonts satisfy you, you can patch your favorite font by 
 [fontpatching](https://powerline.readthedocs.org/en/latest/fontpatching.html) 
-
-## Install External Tools

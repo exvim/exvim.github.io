@@ -3,18 +3,16 @@ layout: index
 title: Home
 ---
 
-# Download and Install
-
-- [Downloads](downloads)
-- [Install](docs/install)
-
-# Intro
+# Welcome to exVim
 
 exVim is a project to turn Vim into a nice programming environment. This project makes you 
 possible to apply different Vim settings, plugin settings and even plugins by different projects. 
 In this way, it makes Vim become the best IDE in the world!
 
 **WHAT EVEN COOL IS --- WE USE EXVIM DEVELOP EXVIM! (\\(-_-)/)**
+
+- [Downloads](downloads)
+- [Install](docs/install)
 
 ## Features
 

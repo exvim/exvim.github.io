@@ -3,11 +3,13 @@ layout: downloads
 title: Downloads
 ---
 
-More details, read the [install](../docs/install) documentation.
+# Downloads
+
+More details, read the [install]({{site.baseurl}}docs/install) documentation.
 
  - exVim Package [ TODO ]
 
-# Windows
+## Windows
 
 | Name           | Download           | Address                                               |
 | :------------- | :----------------: | :---------------------------------------------------- |
@@ -21,7 +23,7 @@ More details, read the [install](../docs/install) documentation.
 You also need to install and setup Git to make exVim working correctly. More details about Git
 setup, read [Vundle for Windows](https://github.com/gmarik/Vundle.vim/wiki/Vundle-for-Windows)
 
-# Mac
+## Mac
 
 | Name          | Download                                    | Install Command                                     |
 | :------------ | :-----------------------------------------: | :-------------------------------------------------- |
@@ -34,7 +36,7 @@ setup, read [Vundle for Windows](https://github.com/gmarik/Vundle.vim/wiki/Vundl
 
 `brew` is the Homebrew install command, more details about [Homebrew](http://brew.sh/).
 
-# Powerline Fonts
+## Powerline Fonts
 
 | Name             | Download                                    |
 | :--------------- | :-----------------------------------------: |
