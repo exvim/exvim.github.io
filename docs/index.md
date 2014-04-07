@@ -11,6 +11,7 @@ title: Docs
 - [Installation](install)
 - [Getting Start](getting-start)
 - [Config .exvim File](config-project)
+- [Customise .vimrc](config-vimrc)
 - [Plugins](plugins)
 - [Known Issues](known-issues)
 - [Changelog](changelog)
