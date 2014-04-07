@@ -28,6 +28,7 @@ redcarpet:
       "superscript",
       "tables",
       "with_toc_data",
+      "footnotes",
   ]
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
