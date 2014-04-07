@@ -61,6 +61,7 @@ a:hover {
 p { margin-bottom: 20px; }
 div.highlight { margin-bottom: 20px; }
 ul, ol { padding: 0 0 18px 30px; }
+li>ul { padding-bottom: 0px; }
 /* ol li, ul li { margin-top: 5px; margin-bottom: 5px; } */
 em, i { font-style: italic; }
 strong, b { font-weight: bold; color: rgb(219, 219, 219); }

@@ -73,7 +73,7 @@ Customise your vim-airline theme:
 au VimEnter * exec 'AirlineTheme your_theme'
 ```
 
-Close vim-airline
+Close vim-airline:
 
 ```vim
 au VimEnter * exec 'AirlineToggle' " close vim-airline plugin
