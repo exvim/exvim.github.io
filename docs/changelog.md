@@ -12,4 +12,5 @@ title: Changelog
 - Add type-script support by plugin [typescript-vim](https://github.com/leafgarland/typescript-vim)
 - Fixed `:Update` error when file_filter has value
 - Fixed white space path error
+- Fixed switch `.exvim` project will overwrite the old `.exvim`'s auto commands
 
