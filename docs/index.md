@@ -14,7 +14,6 @@ title: Docs
 - [Customise .vimrc](config-vimrc)
 - [Plugins](plugins)
 - [Known Issues](known-issues)
-- [Changelog](changelog)
 
 ## How to developing vim-plugin
 
