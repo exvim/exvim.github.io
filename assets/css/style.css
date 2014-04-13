@@ -251,6 +251,11 @@ table td, table th {
 	background-color: #073642;
 }
 
+#sidebar a.active {
+	color: #000000;
+	background-color: #ffffff;
+}
+
 #sidebar>ul {
     padding: 10px 15px 10px 15px;
     text-align: center;

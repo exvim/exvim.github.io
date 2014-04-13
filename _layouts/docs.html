@@ -13,7 +13,7 @@
             <h2>exVim Contents</h2>
             {% for item in site.doc_content %}
                 {% assign active = nil %}
-                {% if page.url == item.url %}
+                {% if page.url contains item.url %}
                     {% assign active = 'active' %}
                 {% endif %}
                 <li><a class="{{ active }}" href="{{ site.baseurl }}docs{{ item.url }}">{{ item.text }}</a></li>
