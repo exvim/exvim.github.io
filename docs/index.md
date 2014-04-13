@@ -3,7 +3,7 @@ layout: docs
 title: Docs
 ---
 
-# Documentation
+# Docs
 
 ## exVim Contents
 
