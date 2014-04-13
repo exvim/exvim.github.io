@@ -12,6 +12,7 @@ title: Docs
 - [Getting Start](getting-start)
 - [Config .exvim](config-project)
 - [Config .vimrc](config-vimrc)
+- [Config Color Scheme](config-colorscheme)
 - [Plugins](plugins)
 - [Known Issues](known-issues)
 

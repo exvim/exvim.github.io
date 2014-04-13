@@ -64,6 +64,8 @@ doc_content:
   url: /config-project/
 - text: Config .vimrc
   url: /config-vimrc/
+- text: Config Color Scheme
+  url: /config-colorscheme/
 - text: Plugins
   url: /plugins/
 - text: Known Issues
