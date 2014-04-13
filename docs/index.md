@@ -7,11 +7,11 @@ title: Docs
 
 ## exVim Contents
 
-- [Introduction](intro)
-- [Installation](install)
+- [Intro](intro)
+- [Install](install)
 - [Getting Start](getting-start)
-- [Config .exvim File](config-project)
-- [Customise .vimrc](config-vimrc)
+- [Config .exvim](config-project)
+- [Config .vimrc](config-vimrc)
 - [Plugins](plugins)
 - [Known Issues](known-issues)
 

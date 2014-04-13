@@ -11,13 +11,13 @@
     <div id="sidebar">
         <ul>
             <h2>exVim Contents</h2>
-            <li><a href="{{ site.baseurl }}docs/intro">Intro</a></li>
-            <li><a href="{{ site.baseurl }}docs/install">Install</a></li>
-            <li><a href="{{ site.baseurl }}docs/getting-start">Getting Start</a></li>
-            <li><a href="{{ site.baseurl }}docs/config-project">Config .exvim File</a></li>
-            <li><a href="{{ site.baseurl }}docs/config-vimrc">Customise .vimrc</a></li>
-            <li><a href="{{ site.baseurl }}docs/plugins">Plugins</a></li>
-            <li><a href="{{ site.baseurl }}docs/known-issues">Known Issues</a></li>
+            {% for item in site.doc_content %}
+                {% assign active = nil %}
+                {% if page.url == item.url %}
+                    {% assign active = 'active' %}
+                {% endif %}
+                <li><a class="{{ active }}" href="{{ site.baseurl }}docs{{ item.url }}">{{ item.text }}</a></li>
+            {% endfor %}
         </ul>
     </div>
 

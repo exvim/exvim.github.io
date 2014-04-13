@@ -5,7 +5,7 @@ title: Config .vimrc
 
 # Config .vimrc
 
-exVim provide 4 different .vimrc files for users, `.vimrc`, `.vimrc.plugins`, `.vimrc.plugins.local`
+exVim provide 4 different .vimrc files for users: `.vimrc`, `.vimrc.plugins`, `.vimrc.plugins.local`
 and `.vimrc.local`. 
 
 The first loaded file is `.vimrc`, we all familiar with it. Before `.vimrc` config your Vim, 

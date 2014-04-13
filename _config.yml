@@ -51,3 +51,20 @@ navigation:
 - text: About
   url: /about/
   layout: index
+
+# Doc Content
+doc_content:
+- text: Intro
+  url: /intro/
+- text: Install
+  url: /install/
+- text: Getting Start
+  url: /getting-start/
+- text: Config .exvim
+  url: /config-project/
+- text: Config .vimrc
+  url: /config-vimrc/
+- text: Plugins
+  url: /plugins/
+- text: Known Issues
+  url: /known-issues/
