@@ -63,5 +63,5 @@ Here is a list of highlightings you can config in your aftercolor script:
 | ex-easyhl Highlighting | Check `:help easyhl-highlighting` |
 | ex-project Highlighting | Check `:help exproject-highlighting` |
 | ex-gsearch Highlighting | Check `:help exgsearch-highlighting` |
-| ex-gsearch Highlighting | Check `:help exgsearch-highlighting` |
+| ex-symbol Highlighting | Check `:help exsymbol-highlighting` |
 
