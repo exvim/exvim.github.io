@@ -15,7 +15,7 @@ More details, read the [Install]({{site.baseurl}}docs/install) documentation.
 
 ## Windows
 
-| Name           | Download           | Address                                               |
+| Name           | Download           | Official Page                                         |
 | :------------- | :----------------: | :---------------------------------------------------- |
 | gVim 7.4       | [exe](gvim74.exe)  | http://www.vim.org/download.php                       |
 | cTags 5.8      | [exe](ctags.exe)   | http://ctags.sourceforge.net/                         |
