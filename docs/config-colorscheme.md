@@ -5,7 +5,7 @@ title: Config Color Scheme
 
 # Config Color Scheme
 
-The exVim's colorscheme consist three parts: your Vim colorscheme, exVim plugins' highlights and 
+exVim's colorscheme consist three parts: your Vim colorscheme, exVim plugins' highlights and 
 plugin colorscheme configuration. To customise your colorscheme in exVim, you must follow the
 steps below:
 
@@ -56,7 +56,7 @@ or `vimfiles/bundle/ex-config/after/colors/exlightgray.vim` as example to config
 Here is a list of highlightings you can config in your aftercolor script:
 
 | Name | Usage or reference |
-| :---- | :----: |
+| :---- | :---- |
 | exConfirmLine | Color of selected line in ex-gsearch, ex-symbol, ... window |
 | exTargetLine | Color of selected line in edit window |
 | ex-showmakrs Highlighting | Check `:help showmarks-highlighting` |

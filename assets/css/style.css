@@ -77,7 +77,9 @@ p code, li code, td code {
     border: solid 1px #2E545E;
     border-radius: 3px;
 }                             
-p code:before, p code:after, li code:before, li code:after {
+p code:before, p code:after, 
+li code:before, li code:after,
+td code:before, td code:after {
     content: "\00a0";
     letter-spacing: -0.2em;
 }
