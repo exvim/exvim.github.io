@@ -69,7 +69,7 @@ small { font-size: 0.85em; }
 sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
 
-p code, li code {                        
+p code, li code, td code {                        
     font-family: Consolas, "Liberation Mono", Courier, monospace;
     font-size: 14px;
     background-color: #073642;
