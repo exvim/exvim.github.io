@@ -5,9 +5,13 @@ title: Downloads
 
 # Downloads
 
-More details, read the [install]({{site.baseurl}}docs/install) documentation.
+| Name            | Version    | Download                                                                                                               |
+| :-------------- | :--------- | :-----------------------------------------:                                                                            |
+| exVim Package   | v0.1.0     | [zip](https://github.com/exvim/main/archive/v0.1.0.zip), [tar.gz](https://github.com/exvim/main/archive/v0.1.0.tar.gz) |
+| exVim Installer | v0.1.0     | TODO                                                                                                                   |
 
- - exVim Package [ TODO ]
+Check our [changelog](https://github.com/exvim/main/releases).   
+More details, read the [Install]({{site.baseurl}}docs/install) documentation.
 
 ## Windows
 
