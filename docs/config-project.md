@@ -9,11 +9,9 @@ exVim use [ex-vimentry](https://github.com/exvim/ex-vimentry) plugin to create a
 The ex-vimentry will parse the files with suffix of `.exvim`, and apply the settings with your
 hooked scripts.
 
-## syntax of .exvim file
+## Syntax of .exvim file
 
-TODO
-
-Check [ex-vimentry](https://github.com/exvim/ex-vimentry) for more details 
+Read [ex-vimentry syntax](https://github.com/exvim/ex-vimentry#syntax).
 
 ## Default Options
 
