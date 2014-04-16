@@ -96,3 +96,11 @@ folder, and idutils will use it instead of `id-lang.map`.
 ### file_ignore_pattern (array)
 
 TODO: Not implement yet.
+
+## Post Init
+
+When exVim finish parsed the `.exvim` file, it will invoke `g:exvim_post_init()` function if
+it exists. You can define this function in you `.vimrc` file and customize your settings in it. 
+
+Here is a (reference)[https://github.com/exvim/ex-vimentry#get-vimentry-settings] to guide you
+use ex-vimentry functions in your script. 
