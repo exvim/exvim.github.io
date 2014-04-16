@@ -56,7 +56,7 @@ This makes your project clean and much better work with external tools. These pr
 
 After exVim started, type `:Update` command, exVim will helps you update project files. 
 
-## How do you integrate Vim-plugins?
+## How does it integrate Vim-plugins?
 
 exVim aims to implement as much as possible of the functions and features in **pure Vim language**. 
 We try to avoid reinvent the wheel. As a result, we carefully select and integrate popular Vim-plugins 
