@@ -23,6 +23,16 @@ and decide later for replace or integrate with your current Vim.
 
 ### Install in Mac OSX
 
+1. Make sure the "mvim" command is available in your Terminal. To do this, type "mvim"
+and check the result. If there is no "mvim" commands, you probably not install MacVim 
+or you didn't make "mvim" as default command. You can download MacVim at 
+https://code.google.com/p/macvim/. Extract the downloaded package find mvim file and put
+it to /usr/local/bin
+
+    ```bash
+    cp mvim /usr/local/bin
+    ```
+
 1. Clone the repository to where you want: 
 
     ```bash
