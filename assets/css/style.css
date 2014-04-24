@@ -209,6 +209,7 @@ table td, table th {
     position: fixed;
     height: 100%;
     padding: 10px;
+    z-index: 900;
 }
 
 #sidebar a:hover {
@@ -314,6 +315,17 @@ img.center {
 /*     }                                   */
 
 /* }                                       */
+
+@media (max-width: 1160px) {    
+    #sidebar {
+        display: none;
+    }
+}
+@media (max-width: 720px) {    
+    #forkme {
+        display: none;
+    }
+}
 
 /*** Icons ***/
 
