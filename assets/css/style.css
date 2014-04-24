@@ -208,6 +208,7 @@ table td, table th {
     float: left;
     position: fixed;
     height: 100%;
+    padding: 10px;
 }
 
 #sidebar a:hover {

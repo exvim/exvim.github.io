@@ -52,8 +52,8 @@ navigation:
   url: /about/
   layout: index
 
-# Doc Content
-doc_content:
+# User Manual
+user_manual:
 - text: Intro
   url: /intro/
 - text: Install
@@ -70,3 +70,8 @@ doc_content:
   url: /plugins/
 - text: Known Issues
   url: /known-issues/
+
+# Developer Manual
+dev_manual:
+- text: Select Your Plugin
+  url: /select-your-plugin/

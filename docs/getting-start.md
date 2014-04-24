@@ -3,8 +3,6 @@ layout: docs
 title: Getting Start
 ---
 
-# Getting Start
-
 We assume you've fully installed exVim. Go to the [Installation]({{site.baseurl}}docs/install) 
 if you havn't done it.
 

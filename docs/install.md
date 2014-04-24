@@ -3,8 +3,6 @@ layout: docs
 title: Install
 ---
 
-# Install
-
 ## Requirements
 
 - Vim 7.3 or higher.

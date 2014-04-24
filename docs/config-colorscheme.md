@@ -3,8 +3,6 @@ layout: docs
 title: Config Color Scheme
 ---
 
-# Config Color Scheme
-
 exVim's colorscheme consist three parts: your Vim colorscheme, exVim plugins' highlights and 
 plugin colorscheme configuration. To customise your colorscheme in exVim, you must follow the
 steps below:

@@ -3,8 +3,6 @@ layout: docs
 title: Config Project
 ---
 
-# Config Project
-
 exVim use [ex-vimentry](https://github.com/exvim/ex-vimentry) plugin to create and setup a project. 
 The ex-vimentry will parse the files with suffix of `.exvim`, and apply the settings with your
 hooked scripts.

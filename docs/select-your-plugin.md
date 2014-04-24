@@ -3,8 +3,6 @@ layout: docs
 title: Select Your Plugin
 ---
 
-# Select Your Plugin
-
 The Vim has dozens of plugins and make it really hard for new users to choose one. 
 This article shows you the way I used to search vim plugins.
 

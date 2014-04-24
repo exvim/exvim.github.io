@@ -3,8 +3,6 @@ layout: docs
 title: Config .vimrc
 ---
 
-# Config .vimrc
-
 exVim provide 4 different .vimrc files for users: `.vimrc`, `.vimrc.plugins`, `.vimrc.plugins.local`
 and `.vimrc.local`. 
 

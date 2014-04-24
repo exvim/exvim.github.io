@@ -6,7 +6,7 @@
         <div class="medium-9 medium-centered columns menu">                                   
             {% for link in site.navigation %}
             {% assign active = nil %}
-            {% if page.url == link.url %}
+            {% if page.url == link.url or page.layout == link.layout %}
                 {% assign active = 'active' %}
             {% endif %}
 
