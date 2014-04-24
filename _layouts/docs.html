@@ -5,27 +5,26 @@
 </head>
 
 <body>
-{% include navbar-docs.html %}
+{% include navbar.html %}
 
-<div id="page">
-    <div id="sidebar">
-        <ul>
-            <h2>exVim Contents</h2>
-            {% for item in site.doc_content %}
-                {% assign active = nil %}
-                {% if page.url contains item.url %}
-                    {% assign active = 'active' %}
-                {% endif %}
-                <li><a class="{{ active }}" href="{{ site.baseurl }}docs{{ item.url }}">{{ item.text }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
+<div id="sidebar">                                                                  
+    <ul>                                                                                                    
+        <h2>exVim Contents</h2>                                                                             
+        {% for item in site.doc_content %}                                                                  
+            {% assign active = nil %}                                                                       
+            {% if page.url contains item.url %}                                                             
+                {% assign active = 'active' %}                                                              
+            {% endif %}                                                                                     
+            <li><a class="{{ active }}" href="{{ site.baseurl }}docs{{ item.url }}">{{ item.text }}</a></li>
+        {% endfor %}                                                                                        
+    </ul>                                                                                                   
+</div>                                                                                                      
 
-    <div class="content" style="float:right; width:700px">
+
+<div id="page" class="row">
+    <div class="medium-9 medium-centered columns content">
         {{ content }}
     </div>
-
-    <div class="clear"></div>
 </div>
 
 {% include footer.html %}
