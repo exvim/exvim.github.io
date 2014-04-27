@@ -8,6 +8,7 @@ title: Docs
 - [Intro](intro)
 - [Install](install)
 - [Getting Start](getting-start)
+- [Project Window Usage](project-window)
 - [Config .exvim](config-project)
 - [Config .vimrc](config-vimrc)
 - [Config Color Scheme](config-colorscheme)

@@ -20,16 +20,14 @@ You will see windows similar as below:
 
 ![exvim-first-start]({{site.baseurl}}docs/images/exvim-first-start.png)
 
+![exvim-first-start-with-text]({{site.baseurl}}docs/images/exvim-first-start-with-text.png)
+
 If you check your project directory, there also a hidden folder named `.exvim.foobar/`
 under it. This folder stores all the project files used in exVim for `foobar.exvim` project.
 
 ## Build your project tree
 
-Move your cursor to the project window at the left. Press `<leader>R`,
-
-**Note**: `<leader>R` here means press key `\`, then press `shift` + `r` (uppercase “r”). 
-vim recommend 3rd-party plugins use `<leader>` (aka. `\`) to begin their operations, 
-also the operations in vim are **case sensitive**.
+Move your cursor to the project window at the left. Press `<leader>R` [[1]](#footnotes),
 
 You will see your project files browse in ex-project window like this:
 
@@ -49,7 +47,7 @@ Here I choose 'exclude' mode, and filter out the folders '\_build', '\_log'
 and '\_ext' from the project. When you finish editing, type `:w` to save the `.exvim` file,
 this will trigger Vim refresh the project settings to exVim. 
 
-Go back to your ex-project window, and rebuild the tree again by `<leader>R`. 
+Go back to your ex-project window, and rebuild the tree again by `<leader>R` [[1]](#footnotes). 
 
 ## Update your project
 
@@ -110,3 +108,12 @@ You can also check
 [ex-gsearch](https://github.com/exvim/ex-gsearch),
 [ex-symbol](https://github.com/exvim/ex-symbol),
 ... for the details of each plugin, and their configurations.
+
+
+<a name="footnotes"></a>
+## Footnotes
+
+1. `<leader>R` here means press key `\`, then press `shift` + `r` (uppercase “r”). 
+vim recommend 3rd-party plugins use `<leader>` (aka. `\`) to begin their operations, 
+also the operations in vim are **case sensitive**.
+
