@@ -25,6 +25,9 @@ You will see windows similar as below:
 If you check your project directory, there also a hidden folder named `.exvim.foobar/`
 under it. This folder stores all the project files used in exVim for `foobar.exvim` project.
 
+**Note:** You can have multiple `.exvim` files in one project. This allow you to apply 
+different settings for different purpose.
+
 ## Build your project tree
 
 Move your cursor to the project window at the left. Press `<leader>R` [[1]](#footnotes),

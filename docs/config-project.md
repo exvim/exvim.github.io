@@ -102,3 +102,8 @@ it exists. You can define this function in you `.vimrc` file and customize your 
 
 Here is a (reference)[https://github.com/exvim/ex-vimentry#get-vimentry-settings] to guide you
 use ex-vimentry functions in your script. 
+
+## Multiple .exvim files
+
+You can have multiple `.exvim` files in one project. This allow you to apply different 
+settings for different purpose.

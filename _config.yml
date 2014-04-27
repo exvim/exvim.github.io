@@ -60,7 +60,7 @@ user_manual:
   url: /install/
 - text: Getting Start
   url: /getting-start/
-- text: Project Window Usage
+- text: Project-Window Usage
   url: /project-window/
 - text: Config .exvim
   url: /config-project/
