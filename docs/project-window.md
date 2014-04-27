@@ -14,7 +14,7 @@ When you open exVim project, you will see:
 
 ## Build Project Tree
 
-In the chapter [Getting Start]({{site.baseurl}}getting-start) we've show you how to build project tree by 
+In the chapter [Getting Start]({{site.baseurl}}docs/getting-start) we've show you how to build project tree by 
 ex-project plugins. Basically just move your cursor to project window, and press `<leader>R`.
 The ex-project will build the tree like this:
 
@@ -70,6 +70,6 @@ This will allow files like LICENSE, README, Makefile, ... added to project tree.
 **Note:** To make it works, you need to save your `.exvim` changes, 
 go to the project window and rebuild it. 
 
-For more details about file and folder filters, read [Config .exvim]({{site.baseurl}}config-project).
+For more details about file and folder filters, read [Config .exvim]({{site.baseurl}}docs/config-project).
 
 ## Folding the folder
