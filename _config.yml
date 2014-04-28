@@ -62,6 +62,8 @@ user_manual:
   url: /getting-start/
 - text: Project-Window Usage
   url: /project-window/
+- text: Global Search
+  url: /global-search/
 - text: Config .exvim
   url: /config-project/
 - text: Config .vimrc

@@ -3,7 +3,7 @@ layout: docs
 title: Known Issues
 ---
 
-## Loose window when use `:q` close buffer in edit window
+## 1. Loose window when use `:q` close buffer in edit window
 
 When you use `:q` close a buffer in edit-window, you probably lose the window: 
 
@@ -21,7 +21,7 @@ nnoremap <unique> <silent> <Leader>bd :EXbd<CR>
 The solution is come from the VimTip 1119: Use Vim like an IDE. 
 But I changes a lot of to make it faster and stable with exVim's registry plugin system.
 
-## mkid: Can't read language map
+## 2. mkid: Can't read language map
 
 If you use mkid and meet the following message on Windows:
 
@@ -38,7 +38,7 @@ You can fix this by open the file in Vim and type:
 ```
 then save it.
 
-## mkid: Can’t create ID in C:\ in Windows
+## 3. mkid: Can’t create ID in C:\ in Windows
 
 If you use mkid and meet the following message on Windows:
 
