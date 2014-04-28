@@ -72,7 +72,7 @@ next search result.
 
 ## Issues
 
-The [Known Issues]({{site.baseurl}}docs/known-issues.md) #2 and #3 shows the issues of id-utils  
+The [Known Issues]({{site.baseurl}}docs/known-issues) #2 and #3 shows the issues of id-utils  
 when working in Windows.
 
 ### When I use :GS search the text "foo::bar", it shows me nothing.

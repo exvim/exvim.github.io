@@ -60,12 +60,12 @@ user_manual:
   url: /install/
 - text: Getting Start
   url: /getting-start/
-- text: Project-Window Usage
+- text: Project Window
   url: /project-window/
 - text: Global Search
   url: /global-search/
 - text: Config .exvim
-  url: /config-project/
+  url: /config-exvim/
 - text: Config .vimrc
   url: /config-vimrc/
 - text: Config Color Scheme

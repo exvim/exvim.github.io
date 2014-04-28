@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Project-Window Usage
+title: Project Window
 ---
 
 exVim use [ex-project](http://github.com/exvim/ex-project) browse project files by default. 
@@ -76,7 +76,7 @@ This will allow files like LICENSE, README, Makefile, ... added to project tree.
 **Note:** To make it works, you need to save your `.exvim` changes, 
 go to the project-window and rebuild it. 
 
-For more details about file and folder filters, read [Config .exvim]({{site.baseurl}}docs/config-project).
+For more details about file and folder filters, read [Config .exvim]({{site.baseurl}}docs/config-exvim).
 
 ## Folding the folder
 

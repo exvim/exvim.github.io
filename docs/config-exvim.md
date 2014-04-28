@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Config Project
+title: Config .exvim
 ---
 
 exVim use [ex-vimentry](https://github.com/exvim/ex-vimentry) plugin to create and setup a project. 
