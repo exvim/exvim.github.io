@@ -10,6 +10,7 @@ title: Docs
 - [Getting Start](getting-start)
 - [Project Window](project-window)
 - [Global Search](global-search)
+- [Tags And Symbols](tags-and-symbols)
 - [Config .exvim](config-exvim)
 - [Config .vimrc](config-vimrc)
 - [Config Color Scheme](config-colorscheme)

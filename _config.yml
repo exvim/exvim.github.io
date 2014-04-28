@@ -64,6 +64,8 @@ user_manual:
   url: /project-window/
 - text: Global Search
   url: /global-search/
+- text: Tags And Symbols
+  url: /tags-and-symbols/
 - text: Config .exvim
   url: /config-exvim/
 - text: Config .vimrc
