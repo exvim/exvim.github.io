@@ -123,7 +123,7 @@ different classes in a cpp project:
 
 ![ex-symbol-different-class-members]({{site.baseurl}}docs/images/ex-symbol-different-class-members.png)
 
-**use the whole symbol jump instead of <leader>] jump**
+**use the whole symbol jump instead of `<leader>]` jump**
 
 As we know `<leader>]` will list all possible tags defines and delcarations of the word under your cursor. 
 That means you can't expect `<leader>]` list "ex::Array::push_back" since it is three words in Vim.
