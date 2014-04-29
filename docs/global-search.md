@@ -21,7 +21,7 @@ on the result and exVim will jump to it in edit-window.
 
 ## Filter
 
-ex-gsearch will show the search results as the picture show below:
+ex-gsearch will show the search results like this:
 
 ![ex-gsearch-result]({{site.baseurl}}docs/images/ex-gsearch-result.png)
 
@@ -35,10 +35,10 @@ provide four filter methods for different filter purpose:
 
 | Commands         | Usage                                                                                                |
 | :--------------- | :--------------------------------------------------------------------------------------------------- |
-| `<leader>r`      | Remove the search results in whiches content part not includes the Vim's search pattern.             |
-| `<leader>d`      | Remove the search results in whiches content part includes the Vim's search pattern.                 |
-| `<leader>fr`     | Remove the search results in whiches file part not includes the Vim's search pattern.                |
-| `<leader>fd`     | Remove the search results in whiches file part includes the Vim's search pattern.                    |
+| `<leader>r`      | Remove the search results in whiches content part not contains the Vim's search pattern.             |
+| `<leader>d`      | Remove the search results in whiches content part contains the Vim's search pattern.                 |
+| `<leader>fr`     | Remove the search results in whiches file part not contains the Vim's search pattern.                |
+| `<leader>fd`     | Remove the search results in whiches file part contains the Vim's search pattern.                    |
 
 The cool thing is, you can use these filter methods again and again till the result less 
 enough to choose. For instance: 
