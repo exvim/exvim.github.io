@@ -7,9 +7,21 @@ title: Downloads
 
 | Name                    | Version          | Download                                                                                                                                   |
 | :--------------         | :---------       | :-----------------------------------------:                                                                                                |
-| exVim GitHub            | {{site.version}} | [zip](https://github.com/exvim/main/archive/{{site.version}}.zip), [tar.gz](https://github.com/exvim/main/archive/{{site.version}}.tar.gz) |
-| exVim Package           | {{site.version}} | TODO                                                                                                                                       |
-| exVim Windows Installer | {{site.version}} | TODO                                                                                                                                       |
+| exVim Main              | {{site.version}} | [zip](https://github.com/exvim/main/archive/{{site.version}}.zip), [tar.gz](https://github.com/exvim/main/archive/{{site.version}}.tar.gz) |
+| exVim Full              | {{site.version}} | [tar.gz](exvim-{{site.version}}.tar.gz)                                                                                                    |
+| exVim Windows installer | {{site.version}} | TODO                                                                                                                                       |
+
+**NOTE:** 
+    
+The **exVim Main** package is the stable version of [exvim/main](https://github.com/exvim/main) 
+project in Github. Use it if you wish to install through Vundle or Pathgeon.
+
+The **exVim Full** package includes all the plugins pre-installed in exVim. It is a green 
+package, use this if you wish to try or preview exVim and don't want it replace your
+original Vim.
+
+The **exVim Windows installer** includes the full package of exVim plus GnuWin32 tools used
+in exVim. This helps Windows user easily install everything and can getting start quickly.
 
 Check our [changelog](https://github.com/exvim/main/releases).   
 More details, read the [Install]({{site.baseurl}}docs/install) documentation.
@@ -35,9 +47,9 @@ setup, read [Vundle for Windows](https://github.com/gmarik/Vundle.vim/wiki/Vundl
 | MacVim 7.4    | [tbz](MacVim-snapshot-70-Mountain-Lion.tbz) | brew install macvim --with-cscope --with-lua --HEAD |
 | cTags         | -                                           | brew install ctags                                  |
 | cscope        | -                                           | brew install cscope                                 |
-| sed           | -                                           | brew install sed                                    |
 | gawk          | -                                           | brew install gawk                                   |
 | id-utils      | -                                           | brew install idutils                                |
+| sed           | -                                           | Already installed in Mac                            |
 
 `brew` is the Homebrew install command, more details about [Homebrew](http://brew.sh/).
 

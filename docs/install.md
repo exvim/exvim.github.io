@@ -19,6 +19,16 @@ By the shell script `osx/mvim.sh` it provides, it will run Vim in its own enviro
 without break your current Vim settings. This means you can preview, try and test exVim 
 and decide later for replace or integrate with your current Vim. 
 
+**NOTE:** 
+
+For Linux & Mac OSX users, If you download **exVim Main** package 
+from [downloads]({{site.baseurl}}downloads) page, you can skip step 1.
+If you download **exVim Full** package from [downloads]({{site.baseurl}}downloads) 
+page, you can skip step 1 & 2.
+
+For Windows users, If you download **exVim Windows installer** 
+from [downloads]({{site.baseurl}}downloads) page, you can skip this section.
+
 ### Install in Mac OSX
 
 1. Clone the repository to where you want: 
@@ -57,6 +67,12 @@ and decide later for replace or integrate with your current Vim.
     ```
 
 ### Install in Linux
+
+If you download exVim Main package from [downloads]({{site.baseurl}}downloads) page, 
+you can skip step 1.
+
+If you download exVim Full package from [downloads]({{site.baseurl}}downloads) page, 
+you can skip step 1 & 2.
 
 1. Clone the repository to where you want: 
 
