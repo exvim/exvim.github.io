@@ -5,10 +5,11 @@ title: Downloads
 
 # Downloads
 
-| Name            | Version    | Download                                                                                                               |
-| :-------------- | :--------- | :-----------------------------------------:                                                                            |
-| exVim Package   | v0.1.0     | [zip](https://github.com/exvim/main/archive/v0.1.0.zip), [tar.gz](https://github.com/exvim/main/archive/v0.1.0.tar.gz) |
-| exVim Installer | v0.1.0     | TODO                                                                                                                   |
+| Name                    | Version          | Download                                                                                                                                   |
+| :--------------         | :---------       | :-----------------------------------------:                                                                                                |
+| exVim GitHub            | {{site.version}} | [zip](https://github.com/exvim/main/archive/{{site.version}}.zip), [tar.gz](https://github.com/exvim/main/archive/{{site.version}}.tar.gz) |
+| exVim Package           | {{site.version}} | TODO                                                                                                                                       |
+| exVim Windows Installer | {{site.version}} | TODO                                                                                                                                       |
 
 Check our [changelog](https://github.com/exvim/main/releases).   
 More details, read the [Install]({{site.baseurl}}docs/install) documentation.
