@@ -67,6 +67,8 @@ user_manual:
   url: /global-search/
 - text: Tags And Symbols
   url: /tags-and-symbols/
+- text: View Class Hierarchies
+  url: /view-class-hierarchies/
 - text: Config .exvim
   url: /config-exvim/
 - text: Config .vimrc
