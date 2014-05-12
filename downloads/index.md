@@ -36,7 +36,7 @@ More details, read the [Install]({{site.baseurl}}docs/install) documentation.
 | sed 4.2.1      | [exe](sed.exe)     | http://gnuwin32.sourceforge.net/packages/sed.htm      |
 | gawk 3.1.6     | [exe](gawk.exe)    | http://gnuwin32.sourceforge.net/packages/gawk.htm     |
 | id-utils 4.0.2 | [zip](idutils.zip) | http://gnuwin32.sourceforge.net/packages/id-utils.htm |
-| graphviz       | http://www.graphviz.org/Download_windows.php | http://www.graphviz.org     |
+| graphviz       | [download-page](http://www.graphviz.org/Download_windows.php) | http://www.graphviz.org |
 
 You also need to install and setup Git to make exVim working correctly. More details about Git
 setup, read [Vundle for Windows](https://github.com/gmarik/Vundle.vim/wiki/Vundle-for-Windows)
