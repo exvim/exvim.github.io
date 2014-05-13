@@ -6,9 +6,9 @@ title: View Class Hierarchies
 exVim allow user generate the hierarchies pictures for specific class. This is done
 by [ex-hierarchy](http://github.com/exvim/ex-hierarchy) plugin. 
 
-The exVim generate a inherits file when you run `:Update` command. This is file is  
-extract from your ctags generates. It records the inherit relationship of the classes
-in your proejct.
+The exVim generate an inherits file when you run `:Update` command. This file will  
+extract the inherit information from your ctags generates. It records the inherit 
+relationship of the classes in your proejct.
 
 The [ex-hierarchy](http://github.com/exvim/ex-hierarchy) plugin will parse the inherit 
 file when you input a class. It then generate a graphviz-dot file and use graphviz draw
