@@ -30,11 +30,11 @@ More details, read the [Install]({{site.baseurl}}docs/install) documentation.
 
 | Name           | Download           | Official Page                                         |
 | :------------- | :----------------: | :---------------------------------------------------- |
-| gVim 7.4       | [exe](gvim74.exe)  | http://www.vim.org/download.php                       |
-| cTags 5.8      | [exe](ctags.exe)   | http://ctags.sourceforge.net/                         |
-| cscope 15.7a   | [exe](cscope.exe)  | http://cscope.sourceforge.net/                        |
-| sed 4.2.1      | [exe](sed.exe)     | http://gnuwin32.sourceforge.net/packages/sed.htm      |
-| gawk 3.1.6     | [exe](gawk.exe)    | http://gnuwin32.sourceforge.net/packages/gawk.htm     |
+| gVim 7.4       | [zip](gvim74.zip)  | http://www.vim.org/download.php                       |
+| cTags 5.8      | [zip](ctags.zip)   | http://ctags.sourceforge.net/                         |
+| cscope 15.7a   | [zip](cscope.zip)  | http://cscope.sourceforge.net/                        |
+| sed 4.2.1      | [zip](sed.zip)     | http://gnuwin32.sourceforge.net/packages/sed.htm      |
+| gawk 3.1.6     | [zip](gawk.zip)    | http://gnuwin32.sourceforge.net/packages/gawk.htm     |
 | id-utils 4.0.2 | [zip](idutils.zip) | http://gnuwin32.sourceforge.net/packages/id-utils.htm |
 | graphviz       | [download-page](http://www.graphviz.org/Download_windows.php) | http://www.graphviz.org |
 
@@ -66,3 +66,10 @@ You can also select other powerline-font in [here](https://github.com/Lokaltog/p
 If you think non of the fonts satisfy you, you can patch your favorite font by 
 [fontpatching](https://powerline.readthedocs.org/en/latest/fontpatching.html) 
 
+## OSX Terminal Colors Solarized
+
+| Name                          | Download                                    |
+| :---------------------------- | :-----------------------------------------: |
+| OSX Terminal Colors Solarized | [zip](osx-terminal-colors-solarized.zip)    |
+
+This is my customized solarized color for osx terminal
