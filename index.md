@@ -5,56 +5,49 @@ title: Home
 
 # Welcome to exVim
 
-exVim is a project to turn Vim into a nice programming environment. This project makes you 
-possible to apply different Vim settings, plugin settings, even plugins for different projects. 
-In this way, it makes Vim become the best IDE in the world!
+exVim is a project to turn Vim into a nice programming environment. This project makes it
+possible for you to apply different Vim settings, different plugin settings and even different
+plugins by project. With this, Vim becomes the best IDE in the world!
 
-**WHAT EVEN COOL IS --- WE USE EXVIM DEVELOP EXVIM! (\\(-_-)/)**
+**EVEN COOL IS --- WE USE EXVIM DEVELOP EXVIM! (\\(-_-)/)**
 
 - [Downloads](downloads)
 - [Install](docs/install)
 
 ## Features
 
-- Manage your project with `.exvim` setting file.
-- Update your project files by single command. (tags, cscope-db, search-index, makefile, ...)
-- Project files stores in one place (in the folder `./.exvim.your_project_name/` under your project).
-- Load Vim-plugin on demand for different projects based on your `.exvim` settings.
-- Better management of plugin windows in Vim. (avoid multiple plugin windows mess up in Vim)  
-- Browse and operate your project files and folders in project window.
-- Class, variable and function tags jumpping.
+- Manage your project with a `.exvim` setting file.
+- Update your project files with a single command. (tags, cscope-db, search-index, makefile, ...)
+- Project files are stored in one place (in the folder `./.exvim.your_project_name/` under your project).
+- Load Vim plugins on demand for different projects based on your `.exvim` settings.
+- Better management of plugin windows in Vim. (avoid getting multiple plugin windows messed up)  
+- Browse and work on your project files and folders in the project window.
+- Class, variable, and function tag jumping.
 - Global search in project scope. 
-- Global search engine customization (user can choose grep, idutils even his own one)
-- A powful way to filter your global search result. 
-- Generate classes hierarchy pictures. 
+- Global search engine customization (user can choose grep, idutils, or even his own)
+- A powerful way to filter your global search results.
+- Generate class hierarchy pictures. 
 - Enhanced quick-fix window.
-- Popular Vim-plugin integrated.
+- Popular Vim plugin integrated.
 
 ## How does it work?
 
-Edit and saved your project settings in `your_project_name.exvim`, open it with Vim.
-In this way exVim will parse the the file and apply settings to your project after Vim started.
+By editing and saving your project settings in a `your_project_name.exvim` file and opening it with Vim, the exVim plugins 
+will be loaded.  exVim will parse the `your_project_name..exvim` file and apply the settings for your project after Vim
+has started.
 
 The settings include:
 
-- The window layout of your Vim. (Where to open the plugin window, initial opened window, last time layout...)
-- File and Folder filter.
-- Plugin you wish to use in the project.
-- Plugin settings for the project.
-- External tools. Such as grep, idutils, ctags, cscope,...
-- External tools settings for the project.
-- Your extension settings.
-- ...
-
-exVim also make sure project files stores in one place ( in the folder `./.exvim.your_project_name/` under your project ). 
-This makes your project clean and much better work with external tools. These project files can be:
+exVim also makes sure project files are stored in one place (in the folder `./.exvim.your_project_name/` under your project). 
+This makes your project clean and much better to work with external tools. These project files can be:
 
 - global search index and results (idutils)
 - tags
 - cscope files
 - hierarchy graph pictures
-- error message
+- error messages
 - temporary files
 - ...
 
-After exVim started, type `:Update` command, exVim will helps you update project files. 
+After Vim has loaded `your_project_name.exvim` and started, exVim helps you update your project files so you 
+can use your favorite plugins with these files.
