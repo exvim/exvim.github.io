@@ -8,7 +8,7 @@ title: Downloads
 | Name                    | Version          | Download                                                                                                                                   |
 | :--------------         | :---------       | :-----------------------------------------:                                                                                                |
 | exVim Main              | {{site.version}} | [zip](https://github.com/exvim/main/archive/{{site.version}}.zip), [tar.gz](https://github.com/exvim/main/archive/{{site.version}}.tar.gz) |
-| exVim Full              | {{site.version}} | [tar.gz](exvim-{{site.version}}.tar.gz)                                                                                                    |
+| exVim Full              | {{site.version}} | [tar.gz](https://github.com/exvim/main/releases/download/{{site.version}}/exvim-{{site.version}}.tar.gz)                                   |
 | exVim Windows installer | {{site.version}} | TODO                                                                                                                                       |
 
 **NOTE:** 

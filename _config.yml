@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         redcarpet
 pygments:         true
-version:          v0.2.0
+version:          v0.3.0
 
 # Permalinks
 permalink:        pretty
@@ -84,3 +84,5 @@ user_manual:
 dev_manual:
 - text: Select Your Plugin
   url: /select-your-plugin/
+- text: Build Your Distribution
+  url: /build-your-distribution/

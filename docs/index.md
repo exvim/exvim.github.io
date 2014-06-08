@@ -21,6 +21,7 @@ title: Docs
 ## Developer Manual
 
 - [Select your plugin](select-your-plugin)
+- [Build Your Distribution](build-your-distribution)
 
 ## How to edit this Wiki?
 
