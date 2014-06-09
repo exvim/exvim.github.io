@@ -28,3 +28,15 @@ sh dist/package.sh
 ```
 
 You will get the distribution in `~/exvim/build/`
+
+## Build Windows installer
+
+You must prepare the following folders and copy them to `c:\dev\exvim\build` for installer.
+
+ - DejaVuSansMono
+ - exvim-{{version}}
+ - graphviz
+ - tools
+ - vim74
+
+Once you have the folders above, run gen-installer.iss in `exvim/main/dist` through Inno Setup.
