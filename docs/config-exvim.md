@@ -105,6 +105,11 @@ Which will make `useless.txt`, all files end with `.min.js` and all cpp files st
 
 Note the only wildcard character you can use is `*`.
 
+### enable_restore_bufs (bool)
+
+When enable, exvim will store all opened buffers in the file `.exvim.your.project/restore_info`. 
+When the next time you open this exvim project, it will restore the last time buffers from the file.
+
 ## Post Init
 
 When exVim finish parsed the `.exvim` file, it will invoke `g:exvim_post_init()` function if
