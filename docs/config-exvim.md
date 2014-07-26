@@ -93,7 +93,22 @@ folder, and idutils will use it instead of `id-lang.map`.
 
 ### file_ignore_pattern (array)
 
-TODO: Not implement yet.
+`file_ignore_pattern` accepts filename patterns which will be ignored in exVim project.
+
+Example:
+
+```
+file_ignore_pattern += useless.txt,*.min.js,_OLD_*.cpp
+```
+
+Which will make `useless.txt`, all files end with `.min.js` and all cpp files start from `_OLD_` be ignored.
+
+Note the only wildcard character you can use is `*`.
+
+### enable_restore_bufs (bool)
+
+When enable, exvim will store all opened buffers in the file `.exvim.your.project/restore_info`. 
+When the next time you open this exvim project, it will restore the last time buffers from the file.
 
 ## Post Init
 
