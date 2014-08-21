@@ -51,3 +51,9 @@ This makes your project clean and much better to work with external tools. These
 
 After Vim has loaded `your_project_name.exvim` and started, exVim helps you update your project files so you 
 can use your favorite plugins with these files.
+
+## Community
+
+- [Chinese] QQ群: 319248144
+- [Chinese] Tower讨论群: 请发我Email KarasAya@gmail.com 申请加入
+- [English] Comming Soon...
