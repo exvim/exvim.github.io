@@ -3,7 +3,7 @@ layout: docs
 title: Getting Start
 ---
 
-We assume you've fully installed exVim. Go to the [Installation]({{site.baseurl}}docs/install) 
+We assume you've fully installed exVim. Go to the [Installation]({{site.url}}/docs/install) 
 if you havn't done it.
 
 ## Generate .exvim project file
@@ -18,9 +18,9 @@ mvim foobar.exvim   # Linux and Windows user will use gvim instead.
 
 You will see windows similar as below:
 
-![exvim-first-start]({{site.baseurl}}docs/images/exvim-first-start.png)
+![exvim-first-start]({{site.url}}/docs/images/exvim-first-start.png)
 
-![exvim-first-start-with-text]({{site.baseurl}}docs/images/exvim-first-start-with-text.png)
+![exvim-first-start-with-text]({{site.url}}/docs/images/exvim-first-start-with-text.png)
 
 If you check your project directory, there also a hidden folder named `.exvim.foobar/`
 under it. This folder stores all the project files used in exVim for `foobar.exvim` project.
@@ -34,7 +34,7 @@ Move your cursor to the project window at the left. Press `<leader>R` [[1]](#foo
 
 You will see your project files browse in ex-project window like this:
 
-![exvim-with-project-tree]({{site.baseurl}}docs/images/exvim-with-project-tree.png)
+![exvim-with-project-tree]({{site.url}}/docs/images/exvim-with-project-tree.png)
 
 You can also include or exclude the first level folders in your `.exvim` file. Just go to the 
 `.exvim` file, find the `folder_filter +=` lines, and sets your options. 
@@ -56,7 +56,7 @@ Go back to your ex-project window, and rebuild the tree again by `<leader>R` [[1
 
 By typing `:Update` commands, you will update exVim project: 
 
-![exvim-update-project]({{site.baseurl}}docs/images/exvim-update-project.png)
+![exvim-update-project]({{site.url}}/docs/images/exvim-update-project.png)
 
 **NOTE:** Windows users will see a pop-up batch command window instead.
 
@@ -105,7 +105,7 @@ Remember, you can use the commands above in any ex-plugin window, which means:
 
 Just use them freely to filter and locate your final result.
 
-For more details about exVim plugins, read [Plugins]({{site.baseurl}}docs/plugins).
+For more details about exVim plugins, read [Plugins]({{site.url}}/docs/plugins).
 You can also check 
 [ex-project](https://github.com/exvim/ex-project), 
 [ex-gsearch](https://github.com/exvim/ex-gsearch),
