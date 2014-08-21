@@ -21,7 +21,24 @@ nnoremap <unique> <silent> <Leader>bd :EXbd<CR>
 The solution is come from the VimTip 1119: Use Vim like an IDE. 
 But I changes a lot of to make it faster and stable with exVim's registry plugin system.
 
-## 2. mkid: Can't read language map
+## 2. Failed to :Update in Windows
+
+If you running `:Update` command and see the following error messages:
+
+```
+sed: -e expression #1, char 8: unterminated 's' command
+```
+
+```
+gawk: xxx\vimfiles\tools\gawk\no-strip-symbol.awk:7: .... fatal: function `asort` not defined
+```
+
+This is because you installed older version of sed and gawk in your PC, and their environment path has higher priority than exVim's. 
+
+This often happends when you have Git and Git Bash installed. To fix the problem, just go to your Git directory (c:\Program Files (x86)\Git\bin\ by default), and rename the gawk.exe and sed.exe to something like _gawk.exe, _sed.exe.
+
+
+## 3. mkid: Can't read language map
 
 If you use mkid and meet the following message on Windows:
 
@@ -38,7 +55,7 @@ You can fix this by open the file in Vim and type:
 ```
 then save it.
 
-## 3. mkid: Can’t create ID in C:\ in Windows
+## 4. mkid: Can’t create ID in C:\ in Windows
 
 If you use mkid and meet the following message on Windows:
 
