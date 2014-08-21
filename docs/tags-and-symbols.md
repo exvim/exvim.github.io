@@ -20,13 +20,13 @@ You can think they are a polish version of the original.
 For example, suppose we want to list the defines and declarations of dlmalloc, we 
 type `:ts dlmalloc` and Vim give us:
 
-![ex-tags-ts]({{site.baseurl}}docs/images/ex-tags-ts.png)
+![ex-tags-ts]({{site.url}}/docs/images/ex-tags-ts.png)
 
 After that we have to type a number to select or press `<Esc>` to cancel it. 
 
 In [ex-tags](http://github.com/exvim/ex-tags) we do this by `:TS dlmalloc` and Vim give us:
 
-![ex-tags-ts2]({{site.baseurl}}docs/images/ex-tags-ts2.png)
+![ex-tags-ts2]({{site.url}}/docs/images/ex-tags-ts2.png)
 
 Almost same as first one except this time you can move up and down by your cursor 
 and can press `<Enter>` to select.
@@ -39,7 +39,7 @@ will be used in [ex-symbol](http://github.com/exvim/ex-symbol) to help user fast
 
 The symbols is very useful when you forget the exactly words in tags. It help you search from
 the tag names, and allow you filter the result similar to the filter methods in 
-[Global Search]({{site.baseurl}}docs/global-search).
+[Global Search]({{site.url}}/docs/global-search).
 
 ### List symbols
 
@@ -56,10 +56,10 @@ ex-symbols provides you 4 different ways to list tags in the symbol window:
 
 ex-symbols will list the search results like this:
 
-![ex-symbol-window]({{site.baseurl}}docs/images/ex-symbol-window.png)
+![ex-symbol-window]({{site.url}}/docs/images/ex-symbol-window.png)
 
 There is too many results if you list it all by `<leader>ss`. The ex-symbol design a very
-similar search filter commands to [Global Search]({{site.baseurl}}docs/global-search).
+similar search filter commands to [Global Search]({{site.url}}/docs/global-search).
 
 ex-symbol allow user apply Vim's search commands such as `/`, `?` and so on (more details type :help search-commands).
 After you confirm the Vim's search pattern, you can use ex-symbol's filter command to remove the
@@ -111,7 +111,7 @@ the inherits.
 
 Here is what I get when I use <leader>sg in a class named “exSprite” in a csharp project:
 
-![ex-symbol-class-members]({{site.baseurl}}docs/images/ex-symbol-class-members.png)
+![ex-symbol-class-members]({{site.url}}/docs/images/ex-symbol-class-members.png)
 
 **use `<leader>sg` or `:SL <your-tag>` to check a member in different classes**
 
@@ -121,7 +121,7 @@ get same define in different members.
 For example, you can type `:SL :push_back`, and it will show the ":push_back" function in 
 different classes in a cpp project:
 
-![ex-symbol-different-class-members]({{site.baseurl}}docs/images/ex-symbol-different-class-members.png)
+![ex-symbol-different-class-members]({{site.url}}/docs/images/ex-symbol-different-class-members.png)
 
 **use the whole symbol jump instead of `<leader>]` jump**
 
@@ -131,7 +131,7 @@ That means you can't expect `<leader>]` list "ex::Array::push_back" since it is 
 There is two ways to solve this: One is type the whole define by `:TS ex::Array::push_back` or we can
 choose it in ex-symbol. It will use the whole symbol as your search pattern in `:TS`.
 
-![ex-symbol-different-class-members]({{site.baseurl}}docs/images/ex-symbol-different-class-members.png)
+![ex-symbol-different-class-members]({{site.url}}/docs/images/ex-symbol-different-class-members.png)
 
-![ex-symbol-confirm-select]({{site.baseurl}}docs/images/ex-symbol-confirm-select.png)
+![ex-symbol-confirm-select]({{site.url}}/docs/images/ex-symbol-confirm-select.png)
 

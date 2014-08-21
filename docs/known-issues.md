@@ -7,7 +7,7 @@ title: Known Issues
 
 When you use `:q` close a buffer in edit-window, you probably lose the window: 
 
-![known-issues-01]({{site.baseurl}}docs/images/known-issues-01.png)
+![known-issues-01]({{site.url}}/docs/images/known-issues-01.png)
 
 To solve this problem, just don't use `:q` in edit window. Instead of that, use `<leader>bd`.
 

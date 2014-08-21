@@ -23,7 +23,7 @@ on the result and exVim will jump to it in edit-window.
 
 ex-gsearch will show the search results like this:
 
-![ex-gsearch-result]({{site.baseurl}}docs/images/ex-gsearch-result.png)
+![ex-gsearch-result]({{site.url}}/docs/images/ex-gsearch-result.png)
 
 However, sometimes there will be too many search results and we would like to filter it.
 ex-gsearch allow user apply Vim's search commands such as `/`, `?` and so on (more details type :help search-commands).
@@ -50,7 +50,7 @@ enough to choose. For instance:
  1. Use `<leader>fr` filter it.
  1. ...
 
-![ex-gsearch-filter]({{site.baseurl}}docs/images/ex-gsearch-filter.png)
+![ex-gsearch-filter]({{site.url}}/docs/images/ex-gsearch-filter.png)
 
 You will get your search result after all.
 
@@ -72,7 +72,7 @@ next search result.
 
 ## Issues
 
-The [Known Issues]({{site.baseurl}}docs/known-issues) #2 and #3 shows the issues of id-utils  
+The [Known Issues]({{site.url}}/docs/known-issues) #2 and #3 shows the issues of id-utils  
 when working in Windows.
 
 ### When I use :GS search the text "foo::bar", it shows me nothing.

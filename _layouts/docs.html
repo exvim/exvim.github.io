@@ -15,7 +15,7 @@
         {% if page.url contains item.url %}                                                             
         {% assign active = 'active' %}                                                              
         {% endif %}                                                                                     
-        <li><a class="{{ active }}" href="{{ site.baseurl }}docs{{ item.url }}">{{ item.text }}</a></li>
+        <li><a class="{{ active }}" href="{{site.url}}/docs{{item.url}}">{{ item.text }}</a></li>
         {% endfor %}                                                                                        
     </ul>                                                                                                   
 
@@ -26,7 +26,7 @@
         {% if page.url contains item.url %}                                                             
         {% assign active = 'active' %}                                                              
         {% endif %}                                                                                     
-        <li><a class="{{ active }}" href="{{ site.baseurl }}docs{{ item.url }}">{{ item.text }}</a></li>
+        <li><a class="{{ active }}" href="{{site.url}}/docs{{item.url}}">{{ item.text }}</a></li>
         {% endfor %}                                                                                        
     </ul>                                                                                                   
 </div>                                                                                                      

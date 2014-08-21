@@ -24,7 +24,7 @@ The **exVim Windows installer** includes the full package of exVim plus GnuWin32
 in exVim. This helps Windows user easily install everything and can getting start quickly.
 
 Check our [changelog](https://github.com/exvim/main/releases).   
-More details, read the [Install]({{site.baseurl}}docs/install) documentation.
+More details, read the [Install]({{site.url}}/docs/install) documentation.
 
 ## Windows
 

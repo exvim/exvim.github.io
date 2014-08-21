@@ -10,15 +10,15 @@ in your `.exvim` file.
 
 When you open exVim project, you will see:
 
-![exvim-first-start-with-text]({{site.baseurl}}docs/images/exvim-first-start-with-text.png)
+![exvim-first-start-with-text]({{site.url}}/docs/images/exvim-first-start-with-text.png)
 
 ## Build Project Tree
 
-In the chapter [Getting Start]({{site.baseurl}}docs/getting-start) we've show you how to build project tree by 
+In the chapter [Getting Start]({{site.url}}/docs/getting-start) we've show you how to build project tree by 
 ex-project plugins. Basically just move your cursor to project-window, and press `<leader>R`.
 The ex-project will build the tree like this:
 
-![ex-project-tree]({{site.baseurl}}docs/images/ex-project-tree.png)
+![ex-project-tree]({{site.url}}/docs/images/ex-project-tree.png)
 
 ### Refresh single folder
 
@@ -76,14 +76,14 @@ This will allow files like LICENSE, README, Makefile, ... added to project tree.
 **Note:** To make it works, you need to save your `.exvim` changes, 
 go to the project-window and rebuild it. 
 
-For more details about file and folder filters, read [Config .exvim]({{site.baseurl}}docs/config-exvim).
+For more details about file and folder filters, read [Config .exvim]({{site.url}}/docs/config-exvim).
 
 ## Folding the folder
 
 You are able to fold a directory by moving the cursor to the line of the folder 
 and press `<Enter>`. Press `<Enter>` again will unfold it.
 
-![ex-project-folding]({{site.baseurl}}docs/images/ex-project-folding.png)
+![ex-project-folding]({{site.url}}/docs/images/ex-project-folding.png)
 
 You can use the vim’s builtin fold command under project-window, for example:
 
@@ -98,7 +98,7 @@ also provides `<ctrl-k>` and `<ctrl-j>` to help you fast jump between folders.
 
 You may noticed, ex-project use `{` and `}` as its foldmarker:
 
-![ex-project-foldmarker]({{site.baseurl}}docs/images/ex-project-foldmarker.png)
+![ex-project-foldmarker]({{site.url}}/docs/images/ex-project-foldmarker.png)
 
 This means you can use fold jumping commands and mappings: 
 
@@ -131,7 +131,7 @@ cursor to it in project-window.
 To create a new file in project-window, move your cursor under a file or a folder line, 
 then press `o`. ex-project will help you create a line like this:
 
-![ex-project-new-file]({{site.baseurl}}docs/images/ex-project-new-file.png)
+![ex-project-new-file]({{site.url}}/docs/images/ex-project-new-file.png)
 
 Type your filename and hit `<enter>` to open it in edit-window. Edit and save it by `:w` will  
 create the new file.
@@ -142,7 +142,7 @@ Create a new folder is more complicate than files. You must move your cursor und
 folder. This will make ex-project understand which folder you wish to your new folder to be
 created in. After that, press `O` and the ex-project will ask you to type your folder name:
 
-![ex-project-new-folder]({{site.baseurl}}docs/images/ex-project-new-folder.png)
+![ex-project-new-folder]({{site.url}}/docs/images/ex-project-new-folder.png)
 
 When you input the name and hit enter confirm it, ex-project will immediately craete the  
 new folder under the selected directory.
@@ -160,4 +160,4 @@ You may have multiple `.exvim` files in your project. And exVim supports switch 
 dynamically. By open the different `.exvim` file, and explicitly save it with `:w`, exVim 
 will switch to the new project.
 
-![ex-project-multiple-exvim-files]({{site.baseurl}}docs/images/ex-project-multiple-exvim-files.png)
+![ex-project-multiple-exvim-files]({{site.url}}/docs/images/ex-project-multiple-exvim-files.png)

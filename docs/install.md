@@ -22,12 +22,12 @@ and decide later for replace or integrate with your current Vim.
 **NOTE:** 
 
 For Linux & Mac OSX users, If you download **exVim Main** package 
-from [downloads]({{site.baseurl}}downloads) page, you can skip step 1.
-If you download **exVim Full** package from [downloads]({{site.baseurl}}downloads) 
+from [downloads]({{site.url}}/downloads) page, you can skip step 1.
+If you download **exVim Full** package from [downloads]({{site.url}}/downloads) 
 page, you can skip step 1 & 2.
 
 For Windows users, If you download **exVim Windows installer** 
-from [downloads]({{site.baseurl}}downloads) page, you can skip this section.
+from [downloads]({{site.url}}/downloads) page, you can skip this section.
 
 ### Install in Mac OSX
 
@@ -68,10 +68,10 @@ from [downloads]({{site.baseurl}}downloads) page, you can skip this section.
 
 ### Install in Linux
 
-If you download exVim Main package from [downloads]({{site.baseurl}}downloads) page, 
+If you download exVim Main package from [downloads]({{site.url}}/downloads) page, 
 you can skip step 1.
 
-If you download exVim Full package from [downloads]({{site.baseurl}}downloads) page, 
+If you download exVim Full package from [downloads]({{site.url}}/downloads) page, 
 you can skip step 1 & 2.
 
 1. Clone the repository to where you want: 
@@ -104,7 +104,7 @@ you can skip step 1 & 2.
 1. Make sure the "vim" command is available in your batch command window. To do this, type "vim"
 and check the result. If there is no "vim" commands, you probably not install gVim or you didn't 
 put gVim install path to your Environment `PATH`. You can download gVim installer at 
-[downloads]({{site.baseurl}}downloads) page. 
+[downloads]({{site.url}}/downloads) page. 
 
 1. Follow this document [Vundle for Windows](https://github.com/gmarik/Vundle.vim/wiki/Vundle-for-Windows)
 to setup Git and Curl.
@@ -174,11 +174,11 @@ tools, exVim still need others such as:
 - gawk
 - sed
 
-So we highly recommend you install the tools before [getting start with exVim]({{site.baseurl}}docs/getting-start). 
+So we highly recommend you install the tools before [getting start with exVim]({{site.url}}/docs/getting-start). 
 
 ### Mac 
 
-Mac users can use [Homebrew](http://brew.sh/) install them, just go to the [downloads]({{site.baseurl}}downloads) 
+Mac users can use [Homebrew](http://brew.sh/) install them, just go to the [downloads]({{site.url}}/downloads) 
 page and follow the commands in Mac section.
 
 **NOTE:** If you already download XCode commands toolkit, you probably have an old version of cTags in it. 
@@ -186,12 +186,12 @@ You need to manually replace the old cTags with Homebrew's download.
 
 ### Linux ( Ubuntu, ... ) 
 
-Ubuntu users can use `apt-get` to install them, just go to the [downloads]({{site.baseurl}}downloads) 
+Ubuntu users can use `apt-get` to install them, just go to the [downloads]({{site.url}}/downloads) 
 page and follow the commands in Mac section, change `brew` to `apt-get` instead.
 
 ### Windows
 
-Windows users can install them by pre-compiled binaries. I provide most of them in [downloads]({{site.baseurl}}downloads)
+Windows users can install them by pre-compiled binaries. I provide most of them in [downloads]({{site.url}}/downloads)
 page.
 
 After download and extract the files, put them in your directory such as `C:\Users\Foobar\Bin`, and add 
@@ -203,7 +203,7 @@ batch command window.
 The exVim turn on the powerline font support by default. To make it work, you need to install 
 powerline font to your system. 
 
-We highly recommend DejaVuSansMono for Powerline. Just download [DejaVuSansMono-for-powerline.zip]({{site.baseurl}}downloads/DejaVuSansMono-for-powerline.zip),
+We highly recommend DejaVuSansMono for Powerline. Just download [DejaVuSansMono-for-powerline.zip]({{site.url}}/downloads/DejaVuSansMono-for-powerline.zip),
 unzip it and install all the `.ttf` file manually.
 
 You can also select other powerline-font in [Lokaltog/powerline-fonts](https://github.com/Lokaltog/powerline-fonts)
