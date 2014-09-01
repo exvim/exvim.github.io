@@ -34,7 +34,7 @@ You will get the distribution in `~/exvim/build/`
 You must prepare the following folders and copy them to `c:\dev\exvim\build` for installer.
 
  - DejaVuSansMono
- - exvim-{{site.version}}
+ - exvim-{{site.version}} (Package generated through dist/package.sh)
  - graphviz
  - tools
  - vim74
