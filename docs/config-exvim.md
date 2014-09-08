@@ -25,12 +25,9 @@ Options:
 ### folder_filter (array)
 
 `folder_filter` accept folder names as value. The `folder_filter` will be used to filter 
-out the folders in the first level of root directory. It will use the filter rule setted
-in `folder_filter_mode`.
+the folder names matches it. It will use the filter rule setted define in `folder_filter_mode`.
 
 Example:
-
-Suppose you have foo,bar,foobar,hello,world in your first level directory.
 
 When you set the filter as: 
 
@@ -39,7 +36,7 @@ folder_filter_mode = include
 folder_filter += foo,bar
 ```
 
-Only foo,bar shows in your ex-project browser. 
+Only folders named foo or bar shows in your ex-project browser. 
 
 When you set the filter as: 
 
@@ -48,15 +45,15 @@ folder_filter_mode = exclude
 folder_filter += foo,bar
 ```
 
-Only foobar,hello,world shows in your ex-project browser. 
+The folders named as foo or bar will not shoed in ex-project browser.
 
-This option affects the following plugins:
+This option also affects the following plugins:
 
 - ex-project 
 - NERDTree
 - ex-config
   - id-utils ( generate id-lang-autogen.map )
-  - ctags (TODO)
+  - ctags
 
 ### file_filter (array)
 
