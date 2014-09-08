@@ -8,7 +8,7 @@ title: Install
 - Vim 7.3 or higher.
 - [Vundle](https://github.com/gmarik/vundle) or [Pathogen](https://github.com/tpope/vim-pathogen)
 
-## Install exVim
+## Download/Update exVim
 
 **NOTE:** 
 
@@ -29,7 +29,7 @@ page, you can skip step 1 & 2.
 For Windows users, If you download **exVim Windows installer** 
 from [downloads]({{site.url}}/downloads) page, you can skip this section.
 
-### Install in Mac OSX
+### Download/Update in Mac OSX
 
 1. Clone the repository to where you want: 
 
@@ -66,7 +66,7 @@ from [downloads]({{site.url}}/downloads) page, you can skip this section.
     cp mvim /usr/local/bin
     ```
 
-### Install in Linux
+### Download/Update in Linux
 
 If you download exVim Main package from [downloads]({{site.url}}/downloads) page, 
 you can skip step 1.
@@ -99,7 +99,7 @@ you can skip step 1 & 2.
     sh unix/gvim.sh your/project/path/foobar.exvim 
     ```
 
-### Install in Windows
+### Download/Update in Windows
 
 1. Make sure the "vim" command is available in your batch command window. To do this, type "vim"
 and check the result. If there is no "vim" commands, you probably not install gVim or you didn't 
@@ -131,10 +131,28 @@ Extract it on `C:\exVim` for example.
     C:\exVim>call windows\gvim.bat "d:\your\project\path\foobar.exvim"
     ```
 
-## Replace your current Vim
+## Install exVim
 
-If you like exVim, and want to run it directly without invoke preview commands, you can run the following
-command:
+If you like exVim, and want to run it directly without invoke preview commands, 
+you can choose one of these two options: 
+
+### Option 1 (Recommend): Source exVim to your current Vim
+
+Suppose you download/update exVim in the path `~/exvim`. Edit your vimrc file, 
+default is `~/.vimrc` in Mac/Linux and `C:\Users\your_name\_vimrc` in Windows.
+
+In your vimrc file, just write:
+
+```vim
+let g:exvim_custom_path='~/exvim/'
+source ~/exvim/.vimrc
+```
+
+Now you can running exVim directly.
+
+### Option 2: Replace your current Vim
+
+To replace your current Vim to exVim, you can run the following scripts:
 
 ```bash
 # for mac user
@@ -144,7 +162,7 @@ sh osx/replace-my-vim.sh
 sh unix/replace-my-vim.sh
 ```
 
-If you are Windows user, you can do this in batch window: 
+If you are Windows user, you can run this batch script in command line window: 
 
 ```
 C:\exVim>call windows\replace-my-vim.bat
