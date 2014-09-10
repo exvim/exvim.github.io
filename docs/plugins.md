@@ -178,6 +178,15 @@ There some great repository provide their snippets
 Syntasic is a really good plugin who will use your language lint programme to check your 
 code.
 
+### Encoding detection
+
+- [AutoFenc](https://github.com/s3rvac/AutoFenc)
+- [FencView](https://github.com/mbbill/fencview)
+
+AutoFenc has many ways to config and detect encoding from file.
+
+FencView mainly supports detection of encodings for asian languages.
+
 ### Easy text editing
 
 - [vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
@@ -187,7 +196,6 @@ code.
 - [visincr](https://github.com/exvim/ex-visincr)
 - [matchit](https://github.com/exvim/ex-matchit)
 - [LargeFile](https://github.com/vim-scripts/LargeFile)
-- [AutoFenc](https://github.com/s3rvac/AutoFenc)
 
 vim-easymotion is a powerful plugin enhance the use of Vim's `b`,`f`,`e`,`t`,... cursor moving 
 commands.
@@ -204,8 +212,6 @@ visincr helps fill the number in order. very useful when editing code.
 matchit enhance the Vim's `%` behaviour.
 
 LargeFile allow you use simple rules opening large vim file
-
-AutoFenc can detect file encoding automatically.
 
 ## Web Developer
 
