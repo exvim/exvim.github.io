@@ -186,6 +186,8 @@ code.
 - [showmarks](https://github.com/exvim/ex-showmarks)
 - [visincr](https://github.com/exvim/ex-visincr)
 - [matchit](https://github.com/exvim/ex-matchit)
+- [LargeFile](https://github.com/vim-scripts/LargeFile)
+- [AutoFenc](https://github.com/s3rvac/AutoFenc)
 
 vim-easymotion is a powerful plugin enhance the use of Vim's `b`,`f`,`e`,`t`,... cursor moving 
 commands.
@@ -200,6 +202,10 @@ showmarks helps you showing the marks in your Vim.
 visincr helps fill the number in order. very useful when editing code.
 
 matchit enhance the Vim's `%` behaviour.
+
+LargeFile allow you use simple rules opening large vim file
+
+AutoFenc can detect file encoding automatically.
 
 ## Web Developer
 
