@@ -1,6 +1,6 @@
 ---
-layout: docs
-title: 简介
+规划: 文档
+标题: 简介
 ---
 
 TODO: 中文写下面的文档
@@ -8,10 +8,14 @@ TODO: 中文写下面的文档
 exVim is a project to turn Vim into a nice programming environment. This project makes you 
 possible to apply different Vim settings, plugin settings and even plugins by different projects. 
 In this way, it makes Vim become the best IDE in the world!
+exVim是一个旨在改善vim成为一个优美的编辑环境的项目，让你能够使用不同的Vim设置，插件设置
+甚至插件用于不同的工程成为可能。通俗的讲，就是为了使vim成为世界上最好的IDE。
 
 **WHAT EVEN COOL IS --- WE USE EXVIM DEVELOP EXVIM! (\\(-_-)/)**
+**更酷的是---我们能够使用exVim开发exVim(\\(-_-)/)**
 
 ## Features
+## 特征
 
 - Manage your project with `.exvim` setting file.
 - Update your project files by single command. (tags, cscope-db, search-index, makefile, ...)
@@ -26,8 +30,22 @@ In this way, it makes Vim become the best IDE in the world!
 - Generate classes hierarchy pictures. 
 - Enhanced quick-fix window.
 - Popular Vim-plugin integrated.
+- 使用‘.exvim’配置文件管理你的工程
+- 通过单一命令更新工程。(更新的东西有tags(自动补全用)，cscoped-db(查找用)，search-index, makefile,等等)
+- 工程文件存储位置(在位于你的工程目录下的‘./.exvim.your_project_name/’文件夹下)
+- 通过你的'.exvim'配置文件为不同的通过加载不同的插件配置
+- 更好的插件管理，避免繁杂的插件导致vim的臃肿杂乱
+- 通过工程窗口浏览和操作你的工程文件
+- 提供健全的类，变量和函数跳转
+- 支持工程范围内的全局搜索
+- 支持自定义全局搜索引擎（用户可以使用grep，idutils甚至自己开发的搜索引擎）
+- 提供强大的全局搜索结果过滤功能
+- 可以生产类的集成图
+- 增强版的quick-fix窗口
+- 整合了流行实用的vim插件
 
 ## How does it work?
+## 亲爱的她是怎么工作的呢？
 
 Edit and saved your project settings in `your_project_name.exvim`, open it with Vim.
 In this way exVim will parse the the file and apply settings to your project after Vim started.
