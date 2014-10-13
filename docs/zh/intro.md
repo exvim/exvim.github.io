@@ -5,31 +5,12 @@
 
 TODO: 中文写下面的文档
 
-exVim is a project to turn Vim into a nice programming environment. This project makes you 
-possible to apply different Vim settings, plugin settings and even plugins by different projects. 
-In this way, it makes Vim become the best IDE in the world!
 exVim是一个旨在改善vim成为一个优美的编辑环境的项目，让你能够使用不同的Vim设置，插件设置
 甚至插件用于不同的工程成为可能。通俗的讲，就是为了使vim成为世界上最好的IDE。
 
-**WHAT EVEN COOL IS --- WE USE EXVIM DEVELOP EXVIM! (\\(-_-)/)**
 **更酷的是---我们能够使用exVim开发exVim(\\(-_-)/)**
 
-## Features
 ## 特征
-
-- Manage your project with `.exvim` setting file.
-- Update your project files by single command. (tags, cscope-db, search-index, makefile, ...)
-- Project files stores in one place (in the folder `./.exvim.your_project_name/` under your project).
-- Load Vim-plugin on demand for different projects based on your `.exvim` settings.
-- Better management of plugin windows in Vim. (avoid multiple plugin windows mess up in Vim)  
-- Browse and operate your project files and folders in project window.
-- Class, variable and function tags jumpping.
-- Global search in project scope. 
-- Global search engine customization (user can choose grep, idutils even his own one)
-- A powful way to filter your global search result. 
-- Generate classes hierarchy pictures. 
-- Enhanced quick-fix window.
-- Popular Vim-plugin integrated.
 - 使用‘.exvim’配置文件管理你的工程
 - 通过单一命令更新工程。(更新的东西有tags(自动补全用)，cscoped-db(查找用)，search-index, makefile,等等)
 - 工程文件存储位置(在位于你的工程目录下的‘./.exvim.your_project_name/’文件夹下)
@@ -44,52 +25,45 @@ exVim是一个旨在改善vim成为一个优美的编辑环境的项目，让你
 - 增强版的quick-fix窗口
 - 整合了流行实用的vim插件
 
-## How does it work?
 ## 亲爱的她是怎么工作的呢？
+通过‘your_project_name.exvim’文件进行编辑和保存你的工程配置，然后使用Vim打开它。
+在启动vim后，exVim将会解析这个文件，并且将这些设置应用于你的工程。
 
-Edit and saved your project settings in `your_project_name.exvim`, open it with Vim.
-In this way exVim will parse the the file and apply settings to your project after Vim started.
+常用的工程配置都包含：
+- Vim的窗口布局(何处打开插件窗口，初始化时打开的窗口，最后退出时候的窗口布局等)
+- 文件和文件夹的过滤机制
+- 工程中所需要使用的插件及其插件相关配置
+- 外部工具，比如grep，idtuils(查找),ctags(补全及函数，宏列表使用),cscope(查找)等
+- 针对本工程的外部工具的设置
+- 自定义的扩展设置
+- 其他(未知的探索才是最刺激的)
 
-The settings include:
+exVim必须确保工程文件(由your_project_name.exvim解析生成)保存在某处(位于你的工程目录下的'./.exvim.your_project_name/'文件夹下)。
+此目录下的文件都是为了使你的工程保持的干净，并且更好的使用外部工具。
+这些工程文件主要包括如下内容：
 
-- The window layout of your Vim. (Where to open the plugin window, initial opened window, last time layout...)
-- File and Folder filter.
-- Plugin you wish to use in the project.
-- Plugin settings for the project.
-- External tools. Such as grep, idutils, ctags, cscope,...
-- External tools settings for the project.
-- Your extension settings.
-- ...
+- 全局搜索索引及结果(由idutils生成)
+- tags(标签，标记，标注等)
+- 关系图
+- 错误信息
+- 临时文件
+- 其他
 
-exVim also make sure project files stores in one place ( in the folder `./.exvim.your_project_name/` under your project ). 
-This makes your project clean and much better work with external tools. These project files can be:
+exVim启动后，使用‘:Update’命令，exVim将可以帮助你更新上面的文件。
 
-- global search index and results (idutils)
-- tags
-- cscope files
-- hierarchy graph pictures
-- error message
-- temporary files
-- ...
+## exVim是怎么整合vim插件的呢？
+exVim 旨在想通过**纯纯的vim脚本**实现实用的功能。
+为了避免重复的造轮子，我们精挑细选在Vim社区中经过时间验证的vim插件，但是还是存在插件不能满足我们的要求，对于这些缺失
+的功能，我们认为我们能够做的更好，所以我们开发它，并将其进行整合放在GitHub[exVim organization](https://github.com/exvim)
 
-After exVim started, type `:Update` command, exVim will helps you update project files. 
 
-## How does it integrate Vim-plugins?
+下面为我们收集，整理和开发vim插件的一些标准：
+- 只使用vim脚本进行插件的开发
+- 遵循unix哲学：紧做好一件事情
+- 尽可能少的依赖
+- 高质量的，高性能的代码
+- 积极的社区
+- 能够被多种插件管理插件进行使用，如Vundle，pathogen.(在Github上，使用标准的运行路径)
 
-exVim aims to implement as much as possible of the functions and features in **pure Vim language**. 
-We try to avoid reinvent the wheel. As a result, we carefully select and integrate popular Vim-plugins 
-in the Vim community. But the exists Vim plugins can't fulfill our needs. For those features lack of and 
-for those features we think we can do it better, we develop by ourself in put them in 
-the [exVim organization](https://github.com/exvim) on GitHub.
+想知道更详细的插件信息，请参考[插件](http://exvim.github.io/docs/plugins/)
 
-Here is the standards we pick, patches and develop for a vim-plugin:
-
-- Develop by pure Vim language
-- Follow the unix philosophy: do one thing well 
-- Less dependencies 
-- High quality of the code and good performance
-- Highly active community
-- Can be installed with a variety of plugin managers, Vundle or pathogen. (Repo in GitHub, standard runtime path structure)
-
-Read the [Plugins](http://exvim.github.io/docs/plugins/) to get the details of the plugins
-in exVim.
