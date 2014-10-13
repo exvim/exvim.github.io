@@ -54,7 +54,7 @@ exVim启动后，使用‘:Update’命令，exVim将可以帮助你更新上面
 ## exVim是怎么整合vim插件的呢？
 exVim 旨在想通过**纯纯的vim脚本**实现实用的功能。
 为了避免重复的造轮子，我们精挑细选在Vim社区中经过时间验证的vim插件，但是还是存在插件不能满足我们的要求，对于这些缺失
-的功能，我们认为我们能够做的更好，所以我们开发它，并将其进行整合放在GitHub[exVim organization](https://github.com/exvim)
+的功能，我们认为我们能够做的更好，所以我们开发它，并将其进行整合放在GitHub的[exVim organization](https://github.com/exvim)
 
 
 下面为我们收集，整理和开发vim插件的一些标准：
