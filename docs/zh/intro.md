@@ -65,4 +65,4 @@ exvim用纯粹的"Vim语言"来实现尽可能多的功能和特性.我们尽量
 - 比较活跃的社区
 - 可以用插件管理器来安装.如Vundle ,pathogen structure)
 
-阅读e [Plugins](http://exvim.github.io/docs/plu目录获取更多关于插件的信息
+阅读 [Plugins](http://exvim.github.io/doc)目录了解更多信息
