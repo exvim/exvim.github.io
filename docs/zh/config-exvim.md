@@ -55,7 +55,7 @@ folder_filter += foo,bar
 
 ### file_filter (array)
 
-’file_filter' 的值是文件类型。它表示你希望在 exVim 项目中看到的文件类型。
+`file_filter` 的值是文件类型。它表示你希望在 exVim 项目中看到的文件类型。
 
 示例:
 
