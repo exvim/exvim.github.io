@@ -1,6 +1,6 @@
 ---
 layout: docs
-标题: 配置 .vimrc
+title: 配置 .vimrc
 ---
 
 exVim为用户提供4种不同的.vimrc ：`.vimrc`, `.vimrc.plugins`, `.vimrc.plugins.local`,`.vimrc.local`. 

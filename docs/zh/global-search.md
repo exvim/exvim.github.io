@@ -1,6 +1,6 @@
 ---
-布局：文档
-标题：全局搜索
+layout: docs
+title: 全局搜索
 ---
 
 exVim使用[ex-gsearch](http://github.com/exvim/ex-gsearch)进行全局搜索。它也在必要

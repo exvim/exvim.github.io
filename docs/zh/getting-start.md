@@ -1,6 +1,6 @@
 ---
-布局: 文档
-标题: 开始
+layout: docs
+title: 开始
 ---
 
 我们假设你已经完全安全了exVim.如果没有，请移至 [Installation]({{site.url}}/docs/install)。

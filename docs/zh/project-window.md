@@ -1,6 +1,6 @@
 ---
-布局: 文档
-标题: 工程窗口
+layout: docs
+title: 工程窗口
 ---
 
 exVim默认使用[ex-project](http://github.com/exvim/ex-project)浏览工程文件。

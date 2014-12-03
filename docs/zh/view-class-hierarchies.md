@@ -1,6 +1,6 @@
 ---
-定位：文档
-标题：类继承视图
+layout: docs
+title: 类继承视图
 ---
 
 exVim 将会允许用户生成指定类的类继承图。这是由 [ex-hierarchy](http://github.com/exvim/ex-hierarchy) 插件完成的. 

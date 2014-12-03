@@ -1,6 +1,6 @@
 ---
 layout: docs
-标题: 配置.exvim 
+title: 配置.exvim 
 ---
 
 exVim使用[ex-vimentry](https://github.com/exvim/ex-vimentry)插件来创建和设置一个项目。
