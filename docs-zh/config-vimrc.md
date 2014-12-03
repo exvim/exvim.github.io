@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-zh
 title: 配置 .vimrc
 ---
 

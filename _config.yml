@@ -45,6 +45,9 @@ navigation:
 - text: Docs
   url: /docs/
   layout: docs
+- text: Docs(中文)
+  url: /docs-zh/
+  layout: docs-zh
 - text: GitHub
   url: https://github.com/exvim/main
 - text: Changelog
@@ -85,4 +88,38 @@ dev_manual:
 - text: Select Your Plugin
   url: /select-your-plugin/
 - text: Build Your Distribution
+  url: /build-your-distribution/
+
+# User Manual
+user_manual_zh:
+- text: 简介
+  url: /intro/
+- text: 安装
+  url: /install/
+- text: 开始入门
+  url: /getting-start/
+- text: 工程窗口
+  url: /project-window/
+- text: 全局搜索
+  url: /global-search/
+- text: 标签与符号
+  url: /tags-and-symbols/
+- text: 类继承图谱
+  url: /view-class-hierarchies/
+- text: exvim 项目配置
+  url: /config-exvim/
+- text: vimrc 配置
+  url: /config-vimrc/
+- text: 颜色主题配置
+  url: /config-colorscheme/
+- text: 插件
+  url: /plugins/
+- text: 已知问题
+  url: /known-issues/
+
+# Developer Manual
+dev_manual_zh:
+- text: 选择你的插件
+  url: /select-your-plugin/
+- text: 创建你的发布版本
   url: /build-your-distribution/
