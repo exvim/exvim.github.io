@@ -1,14 +1,14 @@
 ---
-layout: docs-zh
+layout: "docs-zh"
 title: 简介
+published: true
 ---
 
-exVim 是一个力求将 Vim 改善成一个优美的编辑环境的项目，exVim 让你能够在不同的工程中使用
-不同的 Vim 设置，插件设置甚至插件. 通俗的讲, 就是为了使 Vim 成为世界上最好的 IDE。
+exVim 是一个力求将 Vim 改良成集成编辑环境(IDE)的项目，exVim 在 Vim 中加入项目工程文件(.exvim)的概念, 通过使用 Vim 编辑项目工程文件 (.exvim) 触发 exVim 的插件, 从而让你能够在不同的工程中使用不同的 Vim 配置，插件配置, 甚至按需加载不同的插件. 总的来说, exVim 就是为了使 Vim 成为世界上最好用的 IDE。
 
 **更酷的是---我们用 exVim 开发 exVim! (\\(-_-)/)**
 
-## 特征
+## 功能
 
 - 使用 `.exvim` 配置文件管理你的工程
 - 通过单一命令更新工程。(更新的东西有 tags (自动补全用)，cscoped-db (查找用)，search-index, makefile, 等等)
@@ -69,4 +69,3 @@ exVim 旨在想通过 **纯粹的Vim脚本** 实现更多更强大的功能。
 - 能够被多种插件管理插件进行使用，如 Vundle，pathogen
 
 想知道更详细的插件信息，请参考[插件](http://exvim.github.io/docs/plugins/)
-
