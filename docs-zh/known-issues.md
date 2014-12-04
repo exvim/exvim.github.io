@@ -64,4 +64,4 @@ mkid: can’t get working directory: Permission denied
 
 这可能是一个 Gnuwin32 id-utils 的 BUG，不能在 C:\ 创建 ID。我没有时间来 DEBUG mkid win32 的源码，所以目前的解决方案是把你的工程放在 D:\ 或其他根目录。 
 
-如果你能修复这个 BUG，请一定，一定要告诉我T^T
+如果你能修复这个 BUG，请一定，一定要告诉我.
