@@ -15,6 +15,7 @@ title: 文档
 - [exvim 项目配置](config-exvim)
 - [vimrc 配置](config-vimrc)
 - [颜色主题配置](config-colorscheme)
+- [自定义文件打开方式](config-open-file-action)
 - [插件](plugins)
 - [已知问题](known-issues)
 
@@ -25,5 +26,5 @@ title: 文档
 
 ## 如何编辑这份文档?
 
-如果希望完善 exvim 的文档, 可以从 Github 中 fork 这份 
+如果希望完善 exvim 的文档, 可以从 Github 中 fork 这份
 [文档仓库](https://github.com/exvim/exvim.github.io), 修改并给我发送 Pull Request.
