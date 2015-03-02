@@ -22,10 +22,10 @@ github:
 # Markup language setup
 redcarpet:
   extensions:     [
-      "no_intra_emphasis", 
-      "fenced_code_blocks", 
-      "autolink", 
-      "strikethrough", 
+      "no_intra_emphasis",
+      "fenced_code_blocks",
+      "autolink",
+      "strikethrough",
       "superscript",
       "tables",
       "with_toc_data",
@@ -78,6 +78,8 @@ user_manual:
   url: /config-vimrc/
 - text: Config Color Scheme
   url: /config-colorscheme/
+- text: Config Open File Action
+  url: /config-open-file-action/
 - text: Plugins
   url: /plugins/
 - text: Known Issues
@@ -112,6 +114,8 @@ user_manual_zh:
   url: /config-vimrc/
 - text: 颜色主题配置
   url: /config-colorscheme/
+- text: Config Open File Action
+  url: /自定义文件打开方式/
 - text: 插件
   url: /plugins/
 - text: 已知问题

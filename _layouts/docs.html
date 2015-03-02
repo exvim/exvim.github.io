@@ -7,29 +7,29 @@
 <body>
 {% include navbar-docs.html %}
 
-<div id="sidebar">                                                                  
-    <h2>User Manual</h2>                                                                             
-    <ul>                                                                                                    
-        {% for item in site.user_manual %}                                                                  
-        {% assign active = nil %}                                                                       
-        {% if page.url contains item.url %}                                                             
-        {% assign active = 'active' %}                                                              
-        {% endif %}                                                                                     
+<div id="sidebar">
+    <h2>User Manual</h2>
+    <ul>
+        {% for item in site.user_manual %}
+        {% assign active = nil %}
+        {% if page.url contains item.url %}
+        {% assign active = 'active' %}
+        {% endif %}
         <li><a class="{{ active }}" href="{{site.url}}/docs{{item.url}}">{{ item.text }}</a></li>
-        {% endfor %}                                                                                        
-    </ul>                                                                                                   
+        {% endfor %}
+    </ul>
 
-    <h2>Developer Manual</h2>                                                                             
-    <ul>                                                                                                    
-        {% for item in site.dev_manual %}                                                                  
-        {% assign active = nil %}                                                                       
-        {% if page.url contains item.url %}                                                             
-        {% assign active = 'active' %}                                                              
-        {% endif %}                                                                                     
+    <h2>Developer Manual</h2>
+    <ul>
+        {% for item in site.dev_manual %}
+        {% assign active = nil %}
+        {% if page.url contains item.url %}
+        {% assign active = 'active' %}
+        {% endif %}
         <li><a class="{{ active }}" href="{{site.url}}/docs{{item.url}}">{{ item.text }}</a></li>
-        {% endfor %}                                                                                        
-    </ul>                                                                                                   
-</div>                                                                                                      
+        {% endfor %}
+    </ul>
+</div>
 
 
 <div id="page" class="row">

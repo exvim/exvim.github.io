@@ -2,8 +2,8 @@
     <img id="forkme" style="z-index: 901; position: fixed; top: 0; right: 0; width:150px; height:150px" src="/images/forkme.png" alt="Fork me on GitHub">
 </a>
 <div id="navbar" class="fixed">
-    <div class="top-bar row">                                   
-        <div class="medium-9 medium-centered columns menu">                                   
+    <div class="top-bar row">
+        <div class="medium-9 medium-centered columns menu">
             {% for link in site.navigation %}
             {% assign active = nil %}
             {% if page.url == link.url or page.layout == link.layout %}
@@ -12,6 +12,6 @@
 
             <a class="{{ active }}" href="{{ link.url }}">{{ link.text }}</a>
             {% endfor %}
-        </div>                                               
-    </div>                                               
-</div>                                               
+        </div>
+    </div>
+</div>
