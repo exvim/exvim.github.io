@@ -114,8 +114,8 @@ user_manual_zh:
   url: /config-vimrc/
 - text: 颜色主题配置
   url: /config-colorscheme/
-- text: Config Open File Action
-  url: /自定义文件打开方式/
+- text: 自定义文件打开方式
+  url: /config-open-file-action/
 - text: 插件
   url: /plugins/
 - text: 已知问题
