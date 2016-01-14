@@ -6,17 +6,22 @@
 exVim使用[ex-gsearch](http://github.com/exvim/ex-gsearch)进行全局搜索。它也在必要
 时候和id-utils创建的管道协同工作。总之，当你使用`:Update`后，exVim将会生成被
 ex-gsearch使用的ID文件。
+**注意事项: ** 如果不能搜索,首先看你这个ID文件是否已经生成!
 
 ## 查找文本
 
 [ex-gsearch](http://github.com/exvim/ex-gsearch)有俩个主要的方式可以在你的工程中
 搜索文本。
 
- 1. `<leader>gg`: 它将会搜索光标下的单词。
- 1. `:GS <word>`: 它将会搜索你再命令行输入的文本。
+ 1. `<leader>gg`: 将会搜索光标下的单词。
+ 1. `:GS <word>`: 将会搜索`<word>`或包含`<word>`的文本
+ 1. `:GSW <word>`:将会搜索完整的`<word>`
 
 搜索结束后，ex-gsearch将会在全局搜索窗口列出搜索结果。选中搜索项，按下`<enter>`
-键，exVim将会跳至编辑窗口中的对应处。
+键，编辑窗口将会跳至对应处,你可以通过按下**<ES>**按键关闭搜索窗口!
+
+**注意: **自己修改这个关闭窗口的快捷键,如下:
+`call exgsearch#register_hotkey( 2, 1, 'q', ":EXGSearchClose<CR>" , 'Close window.')`
 
 ## 过滤
 
@@ -36,7 +41,7 @@ ex-gsearch 将会展示如下所示的搜索结果：
 | `<leader>r`      | 移除搜索结果中文本部分不包含vim搜索模式中所包含的。        |
 | `<leader>d`      | 移除搜索结果中文本部分包含搜索模式包含的。                 |
 | `<leader>fr`     | 移除搜索结果中文件部分不包含vim搜索模式中所包含的。        |
-| `<leader>fd`     | 移除说说结果中文件部分包含搜索模式包含的。                 |
+| `<leader>fd`     | 移除搜索结果中文件部分包含搜索模式包含的。                 |
 
 比较酷的是，你可以使用这种方法一边又一边的过滤，直到结果是你想要的为止。例如：
 
