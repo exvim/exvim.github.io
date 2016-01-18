@@ -3,7 +3,7 @@ layout: docs-zh
 title: 开始
 ---
 
-我们假设你已经完全安全了 exVim. 如果没有，请移至 [安装]({{site.url}}/docs/zh/install)。
+我们假设你已经完全安全了 exVim. 如果没有，请移至 [安装]({{site.url}}/docs-zh/install)。
 
 ## 生成 .exvim 工程文件
 
@@ -23,7 +23,7 @@ mvim foobar.exvim   # Linux and Windows user will use gvim instead.
 如果你检查你的工程目录，此目录下会存在一个隐藏文件夹，其命名为 `.exvim.foobar`。
 这个文件夹包含所有的 `foobar.exvim` 工程在使用中需要的工程配置文件。
 
-**注意事项:** 你能够创建多个 `.exvim` 文件在一个工程中。这就方便你为了不同的目的应用
+**注意事项:** 你能够创建多个`*.exvim`文件在一个工程中。这就方便你为了不同的目的应用
 使用不同的设置。
 
 ## 创建工程树
@@ -32,8 +32,8 @@ mvim foobar.exvim   # Linux and Windows user will use gvim instead.
 你将通过ex-project窗口看见你的工程文件，如下所示：
 ![exvim-with-project-tree]({{site.url}}/docs/images/exvim-with-project-tree.png)
 
-你可以通过 `.exvim` 文件包含或者排除第一层目录。为了达到上述目的，你需要打开 `.exvim`
-文件，找到包含 `folder_filter +=` 的行，然后设置它的选项。
+你可以通过`*.exvim`文件包含或者排除第一层目录。为了达到上述目的，你需要打开`*.exvim`
+文件，找到包含`folder_filter +=`的行，然后设置它的选项。
 
 比如：
 
@@ -76,9 +76,9 @@ exVim 刷新你的工程设置。
 
 一旦上述工作你完成，exVim 将会成为一个强有力的编程及分析工具，它会孜孜不倦的服务于你的工程。
 
-**注意事项:** 当你改变你的工程时，你应该需要再次手动的去执行 `:Update` 命令，
-exVim 使用静态的方式分析工程，它不会检测你的改变，这是由于我们认为性能是重要的，
-并且根据我们的经验，手动执行 `:Update` 也不是很糟。
+**注意事项:** 当你改变你的工程后，你应该需要再次手动的去执行`:Update`命令，
+exVim使用静态的方式分析工程，它不会检测你的改变，这是由于我们认为性能是重要的，
+并且根据我们的经验，手动执行`:Update`也不是很糟。
 
 ## 实用命令
 
@@ -86,10 +86,10 @@ exVim 使用静态的方式分析工程，它不会检测你的改变，这是�
 
 | 命令             | 用处                                                                                                |
 | :--------------- |:----------------------------------------------------------------------------|
-| `<leader>gg`     | 全局搜索当前光标下的单词，并将结果展示在 ex-gsearch 窗口                      |
-| `<leader>]`      | 搜索当前光标下的单词的定义及生命，并将结果展示在 ex-tags 窗口                 |
-| `<leader>sg`     | 列出所有的当前单词的定义及生命，并将结果展示在 ex-symbol 窗口。              |
-| `:GS <word>`     | 全局搜索 <word>                                                             |
+| `<leader>gg`     | 全局搜索当前光标下的单词，并将结果展示在ex-gsearch窗口                      |
+| `<leader>]`      | 搜索当前光标下的单词的定义及声明，并将结果展示在ex-tags窗口                 |
+| `<leader>sg`     | 列出所有的当前单词的定义及声明，并将结果展示在ex-symbole窗口。              |
+| `:GS <word>`     | 命令行全局搜索 <word>                                                             |
 
 在 ex-gsearch, ex-symbol 窗口，又可以通过 Vim 的 `/` 命令搜索一个模式段，并且通过
 `<leader>r` 过滤搜索结果。记住，你可以在任意的 ex-plugin 窗口使用上面的命令，这
@@ -102,7 +102,7 @@ exVim 使用静态的方式分析工程，它不会检测你的改变，这是�
 
 仅仅使用它们自在的过滤和定位你的最终结果。
 
-更多关于 exVim 插件细节的介绍请阅读 [插件]({{site.url}}/docs/zh/plugins). 你也可以查看：
+更多关于 exVim 插件细节的介绍请阅读 [插件]({{site.url}}/docs-/plugins). 你也可以查看：
 [ex-project](https://github.com/exvim/ex-project), 
 [ex-gsearch](https://github.com/exvim/ex-gsearch),
 [ex-symbol](https://github.com/exvim/ex-symbol),
@@ -112,6 +112,6 @@ exVim 使用静态的方式分析工程，它不会检测你的改变，这是�
 <a name="footnotes"></a>
 ## 脚注
 
-1. 这里 `<leader>R` 的意思是按下键 `\`, 紧接着按下 `shift`+`r` (大写的"r").
-vim推荐第三方插件使用 `<leader>` (aka. `\`)开始你的操作，并且 vim 中的操作
+1. 这里`<leader>R`的意思是按下键'\', 紧接着按下大写的 `R`.
+vim推荐第三方插件使用`<leader>`(aka. `\`)开始你的操作，并且vim中的操作
 是大小写敏感。

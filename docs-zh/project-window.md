@@ -6,10 +6,16 @@ title: 工程窗口
 exVim默认使用[ex-project](http://github.com/exvim/ex-project)浏览工程文件。
 你可以通过按下`<ctrl-Tab>`将工程窗口切换至NERDTree窗口。你也可以设置`.exvim`文件中的
 `project_browser=nerdtree`将NERDTree作为你的默认的工程浏览窗口。
+**注意: **最新的配置好像已经不能通过`<ctrl-tab>`进行切换了, 需要用户自己配置,而且工程
+    窗口也没有提供打开和关闭的快捷键, 参考快捷键如下:
+    -工程窗口打开和关闭快捷键: `nnoremap <unique> <silent> <F3> :EXProjectToggle<cr>`
+    -NERDTree打开和关闭快捷键: `nnoremap <unique> <silent> <F2> :NERDTreeToggle<cr>`
 
 当你打开exVim工程时，你将会看到：
 
 ![exvim-first-start-with-text]({{site.url}}/docs/images/exvim-first-start-with-text.png)
+
+**注意:**怎么打开exvim工程呢?就是用你的vim打开一个*.exvim类型的文件.
 
 ## 构建工程浏览树
 
@@ -48,7 +54,9 @@ folder_filter_mode = exclude
 folder_filter += bin,test
 ```
 
-**注意事项:**为了使你设置的选项工作，需要保存设置，然后将光标移至工程窗口，重新构建。
+**注意事项:**
+    1,逗号后面不能有空格;
+    2,为了使你设置的选项工作，需要保存设置，然后将光标移至工程窗口，重新构建。
 
 ### 过滤文件
 
@@ -69,7 +77,10 @@ file_filter += __EMPTY__,lua,c,h
 
 这将会将类似于LICENSE, README, Makefile, ... 的文件添加到你的工程树里。
 
-**注意事项：** 为了使它工作，同样需要保存并且重新构建。
+**注意事项：**
+    1,逗号后面不能有空格;
+    2,最好每个工程都明确指明此项,如果不指明可能会发生一些错误;
+    3,为了使它工作，同样需要保存并且重新构建。
 
 需要获取更多关于文件及文件夹过滤的信息，可以阅读[Config .exvim]({{site.url}}/docs/config-exvim).
 
@@ -109,7 +120,7 @@ file_filter += __EMPTY__,lua,c,h
 
 ### 打开文件浏览器
 
-当在工程窗口的文件下按下`<shift-enter>`时，ex-project将会使用系统自带的文件浏览器，并在里面打开
+当在工程窗口的文件夹下按下`<shift-enter>`时，ex-project将会使用系统自带的文件浏览器，并在里面打开
 当前文件夹。这当你想在一个目录中操作一些文件时是非常有用的。
 
 ### 定位你当前的文件
@@ -140,6 +151,7 @@ ex-project搜索当前编辑文件，并将光标移至它。
 
 ex-project能够和NERDTree完美的工作。将光标移动到你的工程窗口，然后按下`<ctrl-tab>`,工程窗口将会
 自动切换至NERDTree。更帅的是，`<leader>fc`依旧能够使用。切换回去的命令也是按下`ctrl-tab>`。
+**注意: **最新的版本好像不能切换!
 
 ## .exvim 工程间的切换
 
